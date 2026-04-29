@@ -1,0 +1,2696 @@
+{
+    "bitcoin": {
+        "2026-04-27 11:43:07": {
+            "coin": "bitcoin",
+            "price": 76607.17661567697,
+            "sma": 77802.35032973382,
+            "rsi": 12.901975127359947,
+            "macd": -268.81578516907757,
+            "signal": -88.62253232083958,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "extreme",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Possible rebound"
+            }
+        },
+        "2026-04-27 11:43:48": {
+            "coin": "bitcoin",
+            "price": 76619.88408018858,
+            "sma": 77803.25800577036,
+            "rsi": 12.949781139122436,
+            "macd": -267.80208429634513,
+            "signal": -88.41979214629308,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "extreme",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Possible rebound"
+            }
+        },
+        "2026-04-27 16:36:59": {
+            "coin": "bitcoin",
+            "price": 76930.58987472393,
+            "sma": 77306.82431430373,
+            "rsi": 35.00807285736826,
+            "macd": -357.9627666235465,
+            "signal": -266.67058085729366,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": -3,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": true,
+                "strength": "weak_sell",
+                "reason": "Moderate bearish score"
+            }
+        },
+        "2026-04-27 16:55:44": {
+            "coin": "bitcoin",
+            "price": 76804.74730413707,
+            "sma": 77297.83555926182,
+            "rsi": 33.27129766929107,
+            "macd": -368.00149020311073,
+            "signal": -268.6783255732065,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Possible rebound"
+            }
+        },
+        "2026-04-27 17:00:05": {
+            "coin": "bitcoin",
+            "price": 76811.50598024503,
+            "sma": 77298.31832184095,
+            "rsi": 33.36018459802854,
+            "macd": -367.46233655347896,
+            "signal": -268.57049484328013,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": true,
+                "strength": "strong_sell",
+                "reason": "Downtrend + momentum"
+            }
+        },
+        "2026-04-27 17:11:59": {
+            "coin": "bitcoin",
+            "price": 76861.10046377739,
+            "sma": 77301.86078495042,
+            "rsi": 34.027247389751636,
+            "macd": -363.50608145687147,
+            "signal": -267.7792438239586,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": true,
+                "strength": "strong_sell",
+                "reason": "Downtrend + momentum"
+            }
+        },
+        "2026-04-27 17:12:58": {
+            "coin": "bitcoin",
+            "price": 76861.14851046335,
+            "sma": 77301.86421685654,
+            "rsi": 34.02790656906346,
+            "macd": -363.50224867281213,
+            "signal": -267.77847726714674,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": true,
+                "strength": "strong_sell",
+                "reason": "Downtrend + momentum"
+            }
+        },
+        "2026-04-27 17:16:02": {
+            "coin": "bitcoin",
+            "price": 76872.55765269924,
+            "sma": 77302.67915558768,
+            "rsi": 34.185161380291646,
+            "macd": -362.5921176682459,
+            "signal": -267.5964510662335,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": true,
+                "strength": "strong_sell",
+                "reason": "Downtrend + momentum"
+            }
+        },
+        "2026-04-27 17:18:15": {
+            "coin": "bitcoin",
+            "price": 76852.53766127302,
+            "sma": 77301.2491562001,
+            "rsi": 33.91017597394706,
+            "macd": -364.1891540213255,
+            "signal": -267.91585833684945,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Possible rebound"
+            }
+        },
+        "2026-04-27 19:46:46": {
+            "coin": "bitcoin",
+            "price": 77428.60874991569,
+            "sma": 77174.54388845658,
+            "rsi": 42.46189716722758,
+            "macd": -264.68549928189896,
+            "signal": -284.3477510130422,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 3,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "strong_buy",
+                "reason": "Trend + momentum aligned"
+            }
+        },
+        "2026-04-27 19:47:07": {
+            "coin": "bitcoin",
+            "price": 77415.69322955635,
+            "sma": 77173.62135128806,
+            "rsi": 42.19982709790276,
+            "macd": -265.71579720229784,
+            "signal": -284.553810597122,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 3,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "strong_buy",
+                "reason": "Trend + momentum aligned"
+            }
+        },
+        "2026-04-27 19:47:34": {
+            "coin": "bitcoin",
+            "price": 77399.85934531626,
+            "sma": 77172.49035955663,
+            "rsi": 41.87526452903495,
+            "macd": -266.97889907901117,
+            "signal": -284.8064309724647,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 3,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Moderate bullish score"
+            }
+        },
+        "2026-04-27 19:50:44": {
+            "coin": "bitcoin",
+            "price": 77336.41864401939,
+            "sma": 77167.95888089256,
+            "rsi": 40.705257429569095,
+            "macd": -272.0396957636549,
+            "signal": -285.8185903093934,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 3,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "strong_buy",
+                "reason": "Trend + momentum aligned"
+            }
+        },
+        "2026-04-27 20:06:43": {
+            "coin": "bitcoin",
+            "price": 77364.92788819945,
+            "sma": 77169.99525547684,
+            "rsi": 41.14618798080423,
+            "macd": -269.7654540626827,
+            "signal": -285.36374196919894,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 3,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "strong_buy",
+                "reason": "Trend + momentum aligned"
+            },
+            "trade": {
+                "id": "4b3bc3e0-5f6b-4aa3-9b43-3fbba7b9ab33",
+                "entry": 77364.92788819945,
+                "size": 6.5e-05,
+                "stop_loss": 75817.62933043546,
+                "take_profit": 80459.52500372744,
+                "type": "long"
+            },
+            "capital": 10
+        },
+        "2026-04-27 20:07:42": {
+            "coin": "bitcoin",
+            "price": 77354.62295025217,
+            "sma": 77169.25918848063,
+            "rsi": 40.971051386319814,
+            "macd": -270.5875003946567,
+            "signal": -285.5281512355938,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 3,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "strong_buy",
+                "reason": "Trend + momentum aligned"
+            },
+            "trade": {
+                "id": "4b3bc3e0-5f6b-4aa3-9b43-3fbba7b9ab33",
+                "entry": 77364.92788819945,
+                "size": 6.5e-05,
+                "stop_loss": 75817.62933043546,
+                "take_profit": 80459.52500372744,
+                "type": "long"
+            },
+            "capital": 10
+        },
+        "2026-04-27 20:11:49": {
+            "coin": "bitcoin",
+            "price": 77358.07434325994,
+            "sma": 77169.50571655261,
+            "rsi": 41.021835744755506,
+            "macd": -270.31217559632205,
+            "signal": -285.47308627592685,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 3,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "strong_buy",
+                "reason": "Trend + momentum aligned"
+            },
+            "trade": {
+                "id": "4b3bc3e0-5f6b-4aa3-9b43-3fbba7b9ab33",
+                "entry": 77364.92788819945,
+                "size": 6.5e-05,
+                "stop_loss": 75817.62933043546,
+                "take_profit": 80459.52500372744,
+                "type": "long"
+            },
+            "capital": 10
+        },
+        "2026-04-27 20:17:22": {
+            "coin": "bitcoin",
+            "price": 77271.23141540117,
+            "sma": 77163.30265027696,
+            "rsi": 39.781126604100706,
+            "macd": -277.23981656511023,
+            "signal": -286.8586144696845,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "normal"
+                }
+            ],
+            "analysis": {
+                "score": 2,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "strong_buy",
+                "reason": "Trend + momentum aligned"
+            },
+            "trade": {
+                "id": "31c169d6-d93d-4fc2-a5ba-2c118286ce0d",
+                "coin": "bitcoin",
+                "entry": 77271.23141540117,
+                "size": 6.5e-05,
+                "stop_loss": 75725.80678709314,
+                "take_profit": 80362.08067201723,
+                "type": "long"
+            },
+            "capital": 10
+        },
+        "2026-04-27 20:24:29": {
+            "coin": "bitcoin",
+            "price": 77238.76708496815,
+            "sma": 77128.44162721207,
+            "rsi": 39.75252027856733,
+            "macd": -246.58684693083342,
+            "signal": -277.37079927555084,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 3,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "strong_buy",
+                "reason": "Trend + momentum aligned"
+            },
+            "trade": {
+                "id": "31c169d6-d93d-4fc2-a5ba-2c118286ce0d",
+                "coin": "bitcoin",
+                "entry": 77271.23141540117,
+                "size": 6.5e-05,
+                "stop_loss": 75725.80678709314,
+                "take_profit": 80362.08067201723,
+                "type": "long"
+            },
+            "capital": 10
+        },
+        "2026-04-27 20:27:45": {
+            "coin": "bitcoin",
+            "price": 77213.60751992061,
+            "sma": 77126.64451542296,
+            "rsi": 39.413998652253305,
+            "macd": -248.59387776083895,
+            "signal": -277.77220544155193,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 3,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "strong_buy",
+                "reason": "Trend + momentum aligned"
+            },
+            "trade": {
+                "id": "31c169d6-d93d-4fc2-a5ba-2c118286ce0d",
+                "coin": "bitcoin",
+                "entry": 77271.23141540117,
+                "size": 6.5e-05,
+                "stop_loss": 75725.80678709314,
+                "take_profit": 80362.08067201723,
+                "type": "long"
+            },
+            "capital": 10
+        },
+        "2026-04-27 20:39:30": {
+            "coin": "bitcoin",
+            "price": 77174.44503936941,
+            "sma": 77123.84719538358,
+            "rsi": 38.89838971411111,
+            "macd": -251.7179502834333,
+            "signal": -278.3970199460708,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 3,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "strong_buy",
+                "reason": "Trend + momentum aligned"
+            },
+            "trade": {
+                "id": "c52d232a-2ccf-4688-a4db-4120ce7fe9c5",
+                "coin": "bitcoin",
+                "entry": 77174.44503936941,
+                "size": 6.5e-05,
+                "stop_loss": 75630.95613858203,
+                "take_profit": 80261.42284094419,
+                "type": "long"
+            },
+            "capital": 10
+        },
+        "2026-04-27 20:42:26": {
+            "coin": "bitcoin",
+            "price": 77107.02891027728,
+            "sma": 77119.03175759129,
+            "rsi": 38.04170014658093,
+            "macd": -257.09587511130667,
+            "signal": -279.4726049116455,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:43:08": {
+            "coin": "bitcoin",
+            "price": 77092.23522165239,
+            "sma": 77117.97506554666,
+            "rsi": 37.85873405804166,
+            "macd": -258.2759984204167,
+            "signal": -279.7086295734675,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:44:22": {
+            "coin": "bitcoin",
+            "price": 77086.81546484628,
+            "sma": 77117.5879400605,
+            "rsi": 37.79214305883187,
+            "macd": -258.70834369270597,
+            "signal": -279.7950986279253,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:45:38": {
+            "coin": "bitcoin",
+            "price": 77107.65855695549,
+            "sma": 77119.07673235402,
+            "rsi": 38.04952676604852,
+            "macd": -257.0456468862685,
+            "signal": -279.46255926663787,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:48:14": {
+            "coin": "bitcoin",
+            "price": 77090.87892949645,
+            "sma": 77117.87818753552,
+            "rsi": 37.842047679528996,
+            "macd": -258.3841926664754,
+            "signal": -279.7302684226792,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:53:23": {
+            "coin": "bitcoin",
+            "price": 77102.31049118898,
+            "sma": 77118.69472765642,
+            "rsi": 37.983151676307656,
+            "macd": -257.47227321521495,
+            "signal": -279.54788453242713,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bullish",
+                    "condition": "momentum_up",
+                    "strength": "strong"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": true,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 23:39:30": {
+            "coin": "bitcoin",
+            "price": 76834.42737633365,
+            "sma": 76921.54743045616,
+            "rsi": 33.70064229537623,
+            "macd": -275.13253088481724,
+            "signal": -276.6276036921745,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Possible rebound"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 23:40:48": {
+            "coin": "bitcoin",
+            "price": 76820.69549725114,
+            "sma": 76920.56658195028,
+            "rsi": 33.39691976071036,
+            "macd": -276.2279514384136,
+            "signal": -276.84668780289377,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 23:41:10": {
+            "coin": "bitcoin",
+            "price": 76820.69549725114,
+            "sma": 76920.56658195028,
+            "rsi": 33.39691976071036,
+            "macd": -276.2279514384136,
+            "signal": -276.84668780289377,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Possible rebound"
+            },
+            "trade": null,
+            "capital": 10
+        }
+    },
+    "ethereum": {
+        "2026-04-27 11:43:08": {
+            "coin": "ethereum",
+            "price": 2275.5968814022067,
+            "sma": 2322.481630902667,
+            "rsi": 7.569204284108977,
+            "macd": -14.800648593214646,
+            "signal": -6.532509307454482,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "extreme",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "normal"
+                }
+            ],
+            "analysis": {
+                "score": 0,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Possible rebound"
+            }
+        },
+        "2026-04-27 11:43:49": {
+            "coin": "ethereum",
+            "price": 2275.6777153811427,
+            "sma": 2322.4874047583053,
+            "rsi": 7.622872465769589,
+            "macd": -14.794200298598753,
+            "signal": -6.531219648531303,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "extreme",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "normal"
+                }
+            ],
+            "analysis": {
+                "score": 0,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Possible rebound"
+            }
+        },
+        "2026-04-27 16:37:00": {
+            "coin": "ethereum",
+            "price": 2290.9158052825337,
+            "sma": 2301.4516895731945,
+            "rsi": 33.5622864883199,
+            "macd": -15.781049023131345,
+            "signal": -12.931054951514394,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Possible rebound"
+            }
+        },
+        "2026-04-27 16:55:46": {
+            "coin": "ethereum",
+            "price": 2287.672946549583,
+            "sma": 2301.220056806555,
+            "rsi": 32.26068569113865,
+            "macd": -16.039738608666084,
+            "signal": -12.982792868621342,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "normal"
+                }
+            ],
+            "analysis": {
+                "score": 0,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Possible rebound"
+            }
+        },
+        "2026-04-27 17:00:05": {
+            "coin": "ethereum",
+            "price": 2287.6781035364943,
+            "sma": 2301.220425162763,
+            "rsi": 32.26267542340955,
+            "macd": -16.039327225094894,
+            "signal": -12.982710591907104,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "bearish",
+                    "condition": "momentum_down",
+                    "strength": "normal"
+                }
+            ],
+            "analysis": {
+                "score": 0,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": true,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": true,
+                "strength": "strong_sell",
+                "reason": "Downtrend + momentum"
+            }
+        },
+        "2026-04-27 17:12:00": {
+            "coin": "ethereum",
+            "price": 2288.9204172758173,
+            "sma": 2299.090087553968,
+            "rsi": 32.263764804746444,
+            "macd": -15.688248720564388,
+            "signal": -13.525196802318547,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            }
+        },
+        "2026-04-27 17:12:59": {
+            "coin": "ethereum",
+            "price": 2289.290482194263,
+            "sma": 2299.1165207624285,
+            "rsi": 32.56166812536664,
+            "macd": -15.658727872369127,
+            "signal": -13.519292632679495,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            }
+        },
+        "2026-04-27 17:16:03": {
+            "coin": "ethereum",
+            "price": 2289.681107195358,
+            "sma": 2299.144422548221,
+            "rsi": 32.87329273906239,
+            "macd": -15.627566903620846,
+            "signal": -13.513060438929838,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            }
+        },
+        "2026-04-27 17:18:16": {
+            "coin": "ethereum",
+            "price": 2289.196748233042,
+            "sma": 2299.1098254794842,
+            "rsi": 32.48646009355798,
+            "macd": -15.666205225400972,
+            "signal": -13.520788103285863,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "strong",
+                    "signal": "bullish",
+                    "condition": "oversold"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": true,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": true,
+                "sell": false,
+                "strength": "weak_buy",
+                "reason": "Possible rebound"
+            }
+        },
+        "2026-04-27 19:44:37": {
+            "coin": "ethereum",
+            "price": 2309.778365890693,
+            "sma": 2297.2926096427777,
+            "rsi": 44.31595708271864,
+            "macd": -11.879111781302072,
+            "signal": -13.17133794142329,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear direction"
+            }
+        },
+        "2026-04-27 19:45:11": {
+            "coin": "ethereum",
+            "price": 2309.762172942578,
+            "sma": 2297.291453003627,
+            "rsi": 44.3067844217868,
+            "macd": -11.880403526451119,
+            "signal": -13.1715962904531,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            }
+        },
+        "2026-04-27 19:46:47": {
+            "coin": "ethereum",
+            "price": 2308.7932187637466,
+            "sma": 2297.222241990853,
+            "rsi": 43.75235503687201,
+            "macd": -11.9576990165001,
+            "signal": -13.187055388462896,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            }
+        },
+        "2026-04-27 20:11:50": {
+            "coin": "ethereum",
+            "price": 2307.67101700463,
+            "sma": 2296.188604087214,
+            "rsi": 43.34127445862723,
+            "macd": -10.628046521296255,
+            "signal": -12.697341612499287,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 5.1211283047562315
+        },
+        "2026-04-27 20:17:23": {
+            "coin": "ethereum",
+            "price": 2305.398168416483,
+            "sma": 2296.026257759489,
+            "rsi": 42.23905506179289,
+            "macd": -10.809356380179906,
+            "signal": -12.733603584276016,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": {
+                "id": "31c169d6-d93d-4fc2-a5ba-2c118286ce0d",
+                "coin": "bitcoin",
+                "entry": 77271.23141540117,
+                "size": 6.5e-05,
+                "stop_loss": 75725.80678709314,
+                "take_profit": 80362.08067201723,
+                "type": "long"
+            },
+            "capital": 10
+        },
+        "2026-04-27 20:24:29": {
+            "coin": "ethereum",
+            "price": 2306.44893854626,
+            "sma": 2296.101312768759,
+            "rsi": 42.70296792002532,
+            "macd": -10.725534261565372,
+            "signal": -12.71683916055311,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": {
+                "id": "31c169d6-d93d-4fc2-a5ba-2c118286ce0d",
+                "coin": "bitcoin",
+                "entry": 77271.23141540117,
+                "size": 6.5e-05,
+                "stop_loss": 75725.80678709314,
+                "take_profit": 80362.08067201723,
+                "type": "long"
+            },
+            "capital": 10
+        },
+        "2026-04-27 20:27:45": {
+            "coin": "ethereum",
+            "price": 2304.908085605556,
+            "sma": 2295.991251844423,
+            "rsi": 42.026114038740566,
+            "macd": -10.8484513052681,
+            "signal": -12.741422569293656,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": {
+                "id": "31c169d6-d93d-4fc2-a5ba-2c118286ce0d",
+                "coin": "bitcoin",
+                "entry": 77271.23141540117,
+                "size": 6.5e-05,
+                "stop_loss": 75725.80678709314,
+                "take_profit": 80362.08067201723,
+                "type": "long"
+            },
+            "capital": 10
+        },
+        "2026-04-27 20:39:31": {
+            "coin": "ethereum",
+            "price": 2301.5847994690866,
+            "sma": 2295.753874263247,
+            "rsi": 40.63691603877898,
+            "macd": -11.113556752052318,
+            "signal": -12.794443658650499,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": {
+                "id": "c52d232a-2ccf-4688-a4db-4120ce7fe9c5",
+                "coin": "bitcoin",
+                "entry": 77174.44503936941,
+                "size": 6.5e-05,
+                "stop_loss": 75630.95613858203,
+                "take_profit": 80261.42284094419,
+                "type": "long"
+            },
+            "capital": 10
+        },
+        "2026-04-27 20:42:27": {
+            "coin": "ethereum",
+            "price": 2299.5209035450944,
+            "sma": 2295.6064531258185,
+            "rsi": 39.819467503013364,
+            "macd": -11.278198022342167,
+            "signal": -12.827371912708468,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:43:09": {
+            "coin": "ethereum",
+            "price": 2298.7573494911467,
+            "sma": 2295.551913550537,
+            "rsi": 39.52531872183474,
+            "macd": -11.3391083172437,
+            "signal": -12.839553971688776,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:44:23": {
+            "coin": "ethereum",
+            "price": 2298.9943769434262,
+            "sma": 2295.568844082842,
+            "rsi": 39.616164110739334,
+            "macd": -11.32020014441241,
+            "signal": -12.835772337122517,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:45:39": {
+            "coin": "ethereum",
+            "price": 2299.679910995818,
+            "sma": 2295.6178108008703,
+            "rsi": 39.88127460630261,
+            "macd": -11.26551366729882,
+            "signal": -12.8248350416998,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:48:14": {
+            "coin": "ethereum",
+            "price": 2300.05320661347,
+            "sma": 2295.6444747735595,
+            "rsi": 40.02713347745998,
+            "macd": -11.235735099508474,
+            "signal": -12.81887932814173,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "weak",
+                    "signal": "neutral",
+                    "condition": "range"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:53:24": {
+            "coin": "ethereum",
+            "price": 2299.8230795466493,
+            "sma": 2295.62803712593,
+            "rsi": 39.937089423525606,
+            "macd": -11.254092814241176,
+            "signal": -12.822550871088271,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:57:57": {
+            "coin": "ethereum",
+            "price": 2298.718552638571,
+            "sma": 2295.5491423467815,
+            "rsi": 39.51048873674787,
+            "macd": -11.342203222862281,
+            "signal": -12.840172952812491,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 20:59:29": {
+            "coin": "ethereum",
+            "price": 2298.5652261060864,
+            "sma": 2295.538190451604,
+            "rsi": 39.45198884601841,
+            "macd": -11.354434399243019,
+            "signal": -12.842619188088639,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bullish",
+                    "condition": "trend_up",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": 1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": true,
+                "sma_bear": false
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 23:36:34": {
+            "coin": "ethereum",
+            "price": 2284.6466757439207,
+            "sma": 2289.9773173941603,
+            "rsi": 36.589160847467774,
+            "macd": -11.444879305301129,
+            "signal": -12.136964133570713,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 23:37:00": {
+            "coin": "ethereum",
+            "price": 2284.6821881300975,
+            "sma": 2289.9798539931726,
+            "rsi": 36.60072254769436,
+            "macd": -11.442046408398255,
+            "signal": -12.136397554190138,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear direction"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 23:39:32": {
+            "coin": "ethereum",
+            "price": 2289.35738734414,
+            "sma": 2290.3137967941757,
+            "rsi": 38.189387119495485,
+            "macd": -11.069096043745049,
+            "signal": -12.061807481259496,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear direction"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 23:40:49": {
+            "coin": "ethereum",
+            "price": 2289.6464960464805,
+            "sma": 2290.3344474157716,
+            "rsi": 38.29216828866654,
+            "macd": -11.046033241279474,
+            "signal": -12.057194920766381,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear signal"
+            },
+            "trade": null,
+            "capital": 10
+        },
+        "2026-04-27 23:41:11": {
+            "coin": "ethereum",
+            "price": 2288.3490277062456,
+            "sma": 2290.2417711057547,
+            "rsi": 37.83518290707349,
+            "macd": -11.14953498921841,
+            "signal": -12.077895270354169,
+            "signals": [
+                {
+                    "indicator": "SMA",
+                    "signal": "bearish",
+                    "condition": "trend_down",
+                    "strength": "normal"
+                },
+                {
+                    "indicator": "RSI",
+                    "strength": "normal",
+                    "signal": "neutral",
+                    "condition": "neutral"
+                },
+                {
+                    "indicator": "MACD",
+                    "signal": "neutral",
+                    "condition": "flat",
+                    "strength": "weak"
+                }
+            ],
+            "analysis": {
+                "score": -1,
+                "oversold": false,
+                "overbought": false,
+                "macd_bull": false,
+                "macd_bear": false,
+                "sma_bull": false,
+                "sma_bear": true
+            },
+            "opportunity": {
+                "buy": false,
+                "sell": false,
+                "strength": "neutral",
+                "reason": "No clear direction"
+            },
+            "trade": null,
+            "capital": 10
+        }
+    }
+}

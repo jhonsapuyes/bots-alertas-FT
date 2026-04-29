@@ -1,0 +1,45 @@
+
+🧱 1. Crear carpeta del proyecto
+mkdir mi_proyecto
+cd mi_proyecto
+
+🐍 2. Crear el entorno virtual
+python -m venv env
+
+⚡ 3. Activar el entorno
+En Windows:
+env\Scripts\activate
+
+
+Cuando esté activo, verás algo como:
+(env) C:\mi_proyecto>
+
+
+📦 4. Instalar librerías del proyecto (aisladas)
+pip install requests
+
+5. Guardar dependencias
+pip freeze > requirements.txt
+
+🔄 6. Reinstalar en otro equipo
+python -m venv env
+env\Scripts\activate  # o source env/bin/activate
+pip install -r requirements.txt
+
+🧪 7. Crear archivo principal
+touch main.py
+
+🚪 8. Desactivar entorno
+deactivate
+
+Siempre activa el entorno antes de trabajar.
+Puedes usar nombres distintos en vez de env:
+python -m venv venv
+
+
+🧠 Tips importantes
+Nunca subas la carpeta env/ a Git → agrega esto a .gitignore:
+env/
+
+
+
