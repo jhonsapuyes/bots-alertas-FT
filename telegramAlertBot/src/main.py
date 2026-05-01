@@ -39,13 +39,12 @@ def main():
     # 🔥 ENGINE CORRECTO
     engine_output = engine(candles)
 
-    print("engine:", engine_output)
 
     # 🔥 PIPELINE recibe dict, no list
     result = run_pipeline(engine_output)
 
     print("\n🔥 RESULTADO FINAL:")
     print(result)
-    
+
 if __name__ == "__main__":
     main()

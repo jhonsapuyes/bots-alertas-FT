@@ -325,3 +325,110 @@ bots-alertas-FT/
 └── main.py                               # 🚀 ENTRY POINT
 
 
+
+
+bots-alertas-FT/
+│
+├── telegramAlertBot/
+│   └── src/
+│       ├── main.py                 🚀 ENTRY POINT
+│       ├── core/
+│       │   ├── pipeline.py         ⚙️ ORQUESTADOR PRINCIPAL
+│       │   ├── orchestrator.py
+│       │
+│       │   └── decision_layer/     🧠 CEREBRO DE DECISIÓN (EVOLUTIVO)
+│       │       ├── signal_arbitrator.py        ⭐ (DECISOR FINAL)
+│       │       ├── market_regime_controller.py
+│       │       ├── conflict_resolver.py
+│       │       ├── final_decision_validator.py
+│       │       ├── risk_scaler.py
+│       │       └── adaptive_execution_engine.py (integración reciente)
+│       │
+│       ├── market_pipeline/        📊 CAPA DE DATOS + FEATURES
+│       │   ├── engine.py
+│       │   ├── data_adapter.py
+│       │   │
+│       │   ├── feature_engine/
+│       │   │   ├── engine.py
+│       │   │   ├── returns.py
+│       │   │   ├── volatility.py
+│       │   │   ├── trend.py
+│       │   │   ├── momentum.py
+│       │   │
+│       │   │   ├── builders/
+│       │   │   │   ├── price_builder.py
+│       │   │   │   ├── trend_builder.py
+│       │   │   │   ├── momentum_builder.py
+│       │   │   │   ├── volatility_builder.py
+│       │   │
+│       │   │   ├── indicators/
+│       │   │   │   ├── sma.py
+│       │   │   │   ├── ema.py
+│       │   │   │   ├── rsi.py
+│       │   │   │   ├── macd.py
+│       │   │   │   ├── adx.py
+│       │   │   │   ├── bollinger.py
+│       │   │
+│       │   │   └── utils/
+│       │   │       ├── normalization.py
+│       │   │       ├── math_utils.py
+│       │   │       └── windowing.py
+│       │
+│       ├── strategy_engine/        🔵 CAPA DE SEÑALES + LÓGICA
+│       │   │
+│       │   ├── score_engine.py     ⭐ scoring de señales (crítico)
+│       │   ├── market_scenarios.py
+│       │   ├── decision_engine.py
+│       │   │
+│       │   ├── filters/            🧱 FILTROS DE MERCADO
+│       │   │   ├── filter_pipeline.py
+│       │   │   ├── noise_filter.py
+│       │   │   ├── regime_filter.py
+│       │   │   ├── volatility_filter.py
+│       │   │   ├── liquidity_filter.py
+│       │   │   └── structure_filter.py
+│       │   │
+│       │   └── opportunity/        🎯 GENERACIÓN DE SEÑALES (ORIGEN DEL RUIDO)
+│       │       ├── opportunity_engine.py
+│       │       ├── opportunity_types.py
+│       │       │
+│       │       └── detectors/
+│       │           ├── trend_detector.py
+│       │           ├── breakout_detector.py
+│       │           ├── pullback_detector.py
+│       │           ├── range_detector.py
+│       │           ├── reversal_detector.py
+│       │           ├── momentum_ignition_detector.py
+│       │           ├── liquidity_grab_detector.py
+│       │           ├── volatility_expansion_detector.py
+│       │
+│       └── storage/
+│           ├── feature_store.py
+│           ├── market_cache.py
+│           └── logs/
+│
+├── execution/                     ⚡ (NO ACTIVO FULL TODAVÍA)
+│   ├── risk_manager.py
+│   ├── position_sizing.py
+│   ├── stop_loss.py
+│   ├── take_profit.py
+│   └── portfolio_manager.py
+│
+└── main.py
+
+
+DATA
+ ↓
+market_pipeline (features)
+ ↓
+strategy_engine/opportunity_engine (señales)
+ ↓
+filters (limpieza)
+ ↓
+score_engine (ranking)
+ ↓
+SignalArbitrator (decisión final)
+ ↓
+adaptive_execution_engine (ajuste final)
+ ↓
+execution (posición real)

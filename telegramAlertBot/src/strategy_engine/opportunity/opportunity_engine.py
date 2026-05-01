@@ -35,6 +35,7 @@ class OpportunityEngine:
         ]
 
     def run(self, features, market):
+        print("OpportunityEngine",features, market )
         signals = []
 
         for detector in self.detectors:

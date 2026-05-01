@@ -1,7 +1,5 @@
 
 
-# opportunity/base_detector.py
-
 from abc import ABC, abstractmethod
 
 
