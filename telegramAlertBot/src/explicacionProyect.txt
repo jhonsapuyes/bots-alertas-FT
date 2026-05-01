@@ -1,0 +1,303 @@
+
+
+1. ARQUITECTURA CORRECTA (DESDE CERO)
+
+Tu sistema debe tener SOLO 3 capas:
+
+🔵 CAPA 1 — DATA FETCH (Binance)
+get_market_data()
+
+✔ SOLO esto:
+
+OHLCV
+volume
+timestamps
+
+👉 Nada más
+
+🟡 CAPA 2 — FEATURE ENGINE (tu cerebro técnico)
+
+union de capa 1 y capa 2 => market_pipeline
+
+Aquí calculas TODO:
+
+indicators
+returns
+volatility
+trend structure
+momentum
+
+🔴 CAPA 3 — MARKET STATE BUILDER
+
+Convierte features → objeto final:
+
+datos_necesarios_para_modelar_escenariosdemercado
+
+
+
+
+------------------------------------------------------------
+
+🧠 🏗️ ARQUITECTURA FINAL DEL SISTEMA (basada en tu estructura)
+🔵 CAPA 1 — DATA LAYER (EXCHANGE RAW)
+get_market_data()
+Entrada:
+OHLCV crudo
+volume
+timestamps
+Salida:
+raw_candles
+🟡 CAPA 2 — FEATURE ENGINE (feature_engine)
+🔧 1. NORMALIZACIÓN
+data_adapter.py
+normalize_candles()
+
+✔ limpia datos
+✔ estandariza formato OHLCV
+✔ elimina ruido del exchange
+
+📈 2. BASE FEATURES
+returns.py
+calculate_returns()
+
+→ retornos entre velas
+
+volatility.py
+calculate_volatility()
+
+→ std_dev
+→ avg_range
+→ ATR-like behavior
+
+trend.py
+calculate_trend()
+
+→ estructura de mercado:
+
+higher_highs
+higher_lows
+lower_highs
+lower_lows
+
+→ output:
+
+bullish / bearish / sideways / weak
+momentum.py
+calculate_momentum()
+
+→ RSI
+→ MACD
+→ momentum_value
+→ estado:
+
+overbought / oversold / neutral
+🟡 3. INDICATORS LAYER (interno técnico)
+indicators/
+
+✔ SOLO soporte interno
+
+sma
+ema
+rsi
+macd
+adx
+bollinger
+volume
+
+👉 NO se usa directo en estrategia
+👉 solo alimenta momentum/trend builders
+
+🟡 4. BUILDERS LAYER (CLAVE DEL SISTEMA)
+
+Aquí conviertes TODO en estructura operativa.
+
+🧱 price_builder.py (NUEVO BASE CRÍTICO)
+OHLCV → comportamiento de vela
+
+Outputs:
+
+body_size
+range
+direction
+wick structure
+pressure
+📊 trend_builder.py
+trend.py → interpretación operativa
+
+Output:
+
+bias: long / short / neutral
+strength: weak / strong
+structure_score
+🧠 momentum_builder.py
+momentum.py → lectura operativa
+
+Output:
+
+entry_timing
+exhaustion
+continuation
+strength
+🌊 volatility_builder.py
+volatility.py → interpretación de régimen
+
+Output:
+
+low_vol / medium / high
+expansion / contraction
+regime_state
+🧠 5. FEATURE VECTOR (UNIFICADOR FINAL)
+feature_vector.py
+
+🔥 Junta TODO:
+
+{
+  price,
+  trend,
+  momentum,
+  volatility,
+  returns
+}
+
+✔ esto es el “estado del mercado”
+
+🔴 CAPA 3 — STRATEGY ENGINE (NUEVO NIVEL)
+🚨 AQUÍ SE ROMPE TODO LO ANTERIOR (en buen sentido)
+🧠 market_scenarios.py (SIGUIENTE PASO REAL)
+
+Convierte features → escenarios reales:
+
+bullish_exhausted
+bearish_breakout
+accumulation
+distribution
+fakeout
+trend_continuation
+📊 score_engine.py (MUY IMPORTANTE)
+trend_score
+momentum_score
+volatility_score
+
+→ score global:
+
+final_score = weighted_sum(...)
+🎯 decision_engine.py
+BUY / SELL / WAIT
+confidence
+reasoning
+🔵 CAPA 4 — EXECUTION LAYER (FUTURO)
+risk_manager.py
+position_sizing.py
+stop_loss.py
+take_profit.py
+🧭 FLUJO FINAL REAL DEL SISTEMA
+RAW DATA
+  ↓
+data_adapter
+  ↓
+returns
+volatility
+trend
+momentum
+  ↓
+price_builder
+  ↓
+builders (trend/momentum/volatility)
+  ↓
+feature_vector
+  ↓
+strategy_engine
+  ↓
+market_scenarios
+  ↓
+decision_engine
+  ↓
+execution (futuro)
+⚡ IDEA CLAVE (lo más importante de todo)
+
+Tu sistema NO es:
+
+❌ indicadores → señales → decisión
+
+Es:
+
+✔ mercado → estructura → interpretación → escenario → decisión
+
+
+
+bots-alertas-FT/
+│
+├── telegramAlertBot/
+│   └── src/
+│
+├── market_pipeline/
+│
+│   ├── feature_engine/                     # 🟡 CAPA 2: FEATURE ENGINE (CORE)
+│   │
+│   ├── __init__.py
+│   ├── engine.py                           # 🔥 ORQUESTADOR PRINCIPAL
+│   │
+│   ├── data_adapter.py                     # 📊 normaliza OHLCV
+│   │
+│   ├── returns.py                          # 📈 retornos %
+│   ├── volatility.py                       # 📉 std, ATR, range
+│   ├── trend.py                            # 📊 estructura de mercado
+│   ├── momentum.py                         # 🧠 RSI, MACD, ROC
+│   │
+│   ├── indicators/                         # 📌 BASE INDICATORS (internos)
+│   │   ├── sma.py
+│   │   ├── ema.py
+│   │   ├── rsi.py
+│   │   ├── macd.py
+│   │   ├── adx.py
+│   │   ├── bollinger.py
+│   │   └── volume.py
+│   │
+│   ├── builders/                           # 🧠 TRANSFORMACIÓN INTELIGENTE
+│   │   ├── price_builder.py                # 🔥 estructura de vela (CRÍTICO)
+│   │   ├── trend_builder.py               # 📊 interpretación de tendencia
+│   │   ├── momentum_builder.py            # 🧠 interpretación momentum
+│   │   ├── volatility_builder.py          # 🌊 régimen de volatilidad
+│   │   └── feature_vector.py              # 🧩 unión final de features
+│   │
+│   ├── utils/                             # 🛠️ herramientas auxiliares
+│   │   ├── math_utils.py
+│   │   ├── normalization.py
+│   │   └── windowing.py
+│   │
+│   └── config.py                          # ⚙️ parámetros globales
+│
+│
+├── strategy_engine/                       # 🔵 CAPA 3: DECISIÓN DE MERCADO
+│   │
+│   ├── market_scenarios.py               # 🎯 clasificación de mercado
+│   ├── score_engine.py                   # 📊 scoring global del mercado
+│   ├── decision_engine.py                # 🧠 BUY / SELL / WAIT
+│   │
+│   └── filters/
+│       ├── noise_filter.py              # ❌ evita señales falsas
+│       ├── regime_filter.py             # 🌊 filtra mercados malos
+│       └── liquidity_filter.py          # 💧 evita baja liquidez
+│
+│
+├── execution/                            # 🔴 CAPA 4: EJECUCIÓN (FUTURO)
+│   ├── risk_manager.py                  # 🛑 control de riesgo
+│   ├── position_sizing.py               # 📦 tamaño de posición
+│   ├── stop_loss.py                     # ⛔ SL dinámico
+│   ├── take_profit.py                   # 🎯 TP dinámico
+│   └── portfolio_manager.py            # 💼 gestión global
+│
+│
+├── core/                                # ⚙️ núcleo del sistema
+│   ├── pipeline.py                     # 🔗 conecta todo
+│   └── orchestrator.py                 # 🧠 flujo principal global
+│
+│
+├── storage/
+│   ├── market_cache.py                # 💾 cache de datos
+│   ├── feature_store.py               # 📦 guarda features
+│   └── logs/
+│       └── system.log
+│
+│
+└── main.py                             # 🚀 ENTRY POINT GENERAL

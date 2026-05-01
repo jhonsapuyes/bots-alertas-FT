@@ -1,0 +1,130 @@
+
+
+datos_necesarios_para_modelar_escenariosdemercado = {
+    # =========================
+    # 📊 PRICE ACTION (OBLIGATORIO)
+    # =========================
+    "price": {
+        "current": float,
+        "open": float,
+        "high": float,
+        "low": float,
+        "close": float,
+        "returns_1m": float,
+        "returns_5m": float,
+        "returns_1h": float
+    },
+
+    # =========================
+    # 📈 TREND STRUCTURE
+    # =========================
+    "trend": {
+        "direction": "bullish | bearish | neutral",
+        "strength": float,          # 0–1
+        "adx": float,
+        "sma_distance": float,
+        "higher_timeframe_trend": "bullish | bearish | range",
+        "market_regime": "trend | range | breakout | compression"
+    },
+
+    # =========================
+    # 📊 MOMENTUM
+    # =========================
+    "momentum": {
+        "rsi": float,
+        "macd": float,
+        "macd_signal": float,
+        "macd_hist": float,
+        "roc": float,               # rate of change
+        "stochastic": float
+    },
+
+    # =========================
+    # 📉 VOLATILITY
+    # =========================
+    "volatility": {
+        "current": float,
+        "atr": float,
+        "volatility_percentile": float,
+        "expansion": bool,
+        "compression": bool
+    },
+
+    # =========================
+    # 🧠 VOLUME / LIQUIDITY
+    # =========================
+    "volume": {
+        "current": float,
+        "average": float,
+        "ratio": float,             # current / avg
+        "spike": bool,
+        "absorption": bool,
+        "buy_sell_pressure": float  # -1 to 1
+    },
+
+    # =========================
+    # 🧊 MARKET MICROSTRUCTURE
+    # =========================
+    "microstructure": {
+        "order_flow_bias": float,   # -1 sell, +1 buy
+        "liquidity_grabs": int,
+        "fakeouts_detected": int,
+        "support_resistance": {
+            "nearest_support": float,
+            "nearest_resistance": float
+        },
+        "spread": float
+    },
+
+    # =========================
+    # 🧭 REGIME DETECTION (CLAVE)
+    # =========================
+    "regime": {
+        "primary": "trend | range | breakout | reversal | exhaustion",
+        "confidence": float,
+        "transition_state": "building | mature | exhaustion | unknown"
+    },
+
+    # =========================
+    # 🧠 SENTIMENT (OPCIONAL PERO POTENTE)
+    # =========================
+    "sentiment": {
+        "market_sentiment": "fear | neutral | greed",
+        "momentum_sentiment": float,
+        "social_bias": float
+    },
+
+    # =========================
+    # 🔥 FATIGUE / CYCLE
+    # =========================
+    "cycle": {
+        "phase": "accumulation | expansion | distribution | exhaustion",
+        "strength": float,
+        "age_of_trend": int
+    },
+
+    # =========================
+    # ⚙️ DERIVED FEATURES (IMPORTANTE)
+    # =========================
+    "derived": {
+        "signal_strength": float,
+        "confidence_score": float,
+        "entropy": float,           # caos del mercado
+        "edge_quality": float
+    },
+
+    # =========================
+    # 🧠 CONTEXT METADATA
+    # =========================
+    "meta": {
+        "symbol": str,
+        "timestamp": str,
+        "timeframe": str,
+        "exchange": str
+    }
+}
+
+datos_necesarios_para_modelar_escenariosdemercado1 => puedo ya llamar a las funciones (marketCore y marketMicro) para que modelen 
+los escenarios de mercado
+
+

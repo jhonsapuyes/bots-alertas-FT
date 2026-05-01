@@ -1,0 +1,66 @@
+
+
+Vas por muy buen camino, pero aquí hay un ajuste importante de concepto:
+
+👉 opportunity_detect NO es solo “detectar señales”
+👉 es modelar escenarios de mercado (como tú dices)
+
+Y eso es exactamente lo que usan sistemas serios.
+
+🧠 1. LOS ESCENARIOS REALES DE MERCADO
+
+Si quieres que tu bot sea sólido, no basta con “trend vs range”.
+Hay al menos 6 escenarios clave:
+
+1️⃣ TREND (tendencia limpia)
+ADX alto
+dirección clara
+pullbacks ordenados
+
+✔ Estrategia:
+
+continuation (tu v2)
+2️⃣ RANGE (lateral)
+ADX bajo
+precio entre soporte/resistencia
+
+✔ Estrategia:
+
+mean reversion (tu v1)
+3️⃣ BREAKOUT (ruptura)
+compresión + explosión
+volatilidad subiendo
+
+✔ Estrategia:
+
+entrada agresiva en ruptura
+
+👉 ❗ No lo tienes aún
+
+4️⃣ PULLBACK (retroceso dentro de tendencia)
+tendencia fuerte
+precio corrige
+
+✔ Estrategia:
+
+reentrada (lo tienes medio dentro de v2)
+5️⃣ EXHAUSTION (agotamiento)
+momentum cae
+divergencias
+ADX deja de subir
+
+✔ Estrategia:
+
+salida / NO entrar / posible reversión
+
+👉 ya lo tienes con fatigue
+
+6️⃣ REVERSAL (cambio de tendencia)
+fallo de continuación
+estructura rota
+
+✔ Estrategia:
+
+contra-tendencia
+
+👉 ❗ aún no lo tienes bien separado

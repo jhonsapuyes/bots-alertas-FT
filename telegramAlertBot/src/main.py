@@ -1,12 +1,5 @@
 
 
-from datetime import datetime
-import time
-
-from core.analysisRun import analysisRun
-from execution.decide_trade import decide_trade
-from execution.trend_fatigue_detector import TrendFatigueDetector
-
     #coins = [
     #"BTCUSDT",
     #"ETHUSDT",
@@ -20,36 +13,16 @@ from execution.trend_fatigue_detector import TrendFatigueDetector
     #"AVAXUSDT"
     #]
 
+from market_pipeline.data_fetch.get_market_data import get_market_data
+from market_pipeline.feature_engine.engine import engine
+
 def main():
 
+    raw_data = get_market_data("ETHUSDT")
+    print("get_market_data:", raw_data)
 
-
-
-    coins = ["ETHUSDT"]
-
-    for coin in coins:
-
-        time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-        data = analysisRun(coin)
-
-        # 🔥 ejecutar decisión final
-        final_trade = decide_trade(data)
-
-        detector = TrendFatigueDetector()
-
-        result = detector.analyze("ETHUSDT", data)
-
-
-        print(f"\n🪙 {coin} | {time_now}")
-        print("DATA:", data)
-        print("FINAL TRADE:", final_trade)
-        print(result)
-
-        # ⏱️ pausa de 5 segundos
-        time.sleep(5)
-
-
+    features = engine(raw_data)
+    print("engine:", features)
 
 
 if __name__ == "__main__":
