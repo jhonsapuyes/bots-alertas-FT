@@ -232,19 +232,16 @@ bots-alertas-FT/
 │
 ├── market_pipeline/
 │
-│   ├── feature_engine/                     # 🟡 CAPA 2: FEATURE ENGINE (CORE)
+│   ├── feature_engine/                     # 🟡 CAPA 2: FEATURE ENGINE (DATA + FEATURES)
 │   │
-│   ├── __init__.py
-│   ├── engine.py                           # 🔥 ORQUESTADOR PRINCIPAL
-│   │
+│   ├── engine.py                           # 🔥 ORQUESTADOR FEATURE ENGINE
 │   ├── data_adapter.py                     # 📊 normaliza OHLCV
-│   │
-│   ├── returns.py                          # 📈 retornos %
-│   ├── volatility.py                       # 📉 std, ATR, range
+│   ├── returns.py                          # 📈 retornos
+│   ├── volatility.py                       # 📉 ATR / STD / range
 │   ├── trend.py                            # 📊 estructura de mercado
-│   ├── momentum.py                         # 🧠 RSI, MACD, ROC
+│   ├── momentum.py                         # 🧠 RSI / MACD / ROC
 │   │
-│   ├── indicators/                         # 📌 BASE INDICATORS (internos)
+│   ├── indicators/                         # 📌 INDICADORES BASE
 │   │   ├── sma.py
 │   │   ├── ema.py
 │   │   ├── rsi.py
@@ -253,51 +250,78 @@ bots-alertas-FT/
 │   │   ├── bollinger.py
 │   │   └── volume.py
 │   │
-│   ├── builders/                           # 🧠 TRANSFORMACIÓN INTELIGENTE
-│   │   ├── price_builder.py                # 🔥 estructura de vela (CRÍTICO)
-│   │   ├── trend_builder.py               # 📊 interpretación de tendencia
-│   │   ├── momentum_builder.py            # 🧠 interpretación momentum
-│   │   ├── volatility_builder.py          # 🌊 régimen de volatilidad
-│   │   └── feature_vector.py              # 🧩 unión final de features
+│   ├── builders/                           # 🧠 FEATURE ENGINEERING
+│   │   ├── price_builder.py
+│   │   ├── trend_builder.py
+│   │   ├── momentum_builder.py
+│   │   ├── volatility_builder.py
+│   │   └── feature_vector.py
 │   │
-│   ├── utils/                             # 🛠️ herramientas auxiliares
+│   ├── utils/
 │   │   ├── math_utils.py
 │   │   ├── normalization.py
 │   │   └── windowing.py
 │   │
-│   └── config.py                          # ⚙️ parámetros globales
+│   └── config.py
 │
 │
-├── strategy_engine/                       # 🔵 CAPA 3: DECISIÓN DE MERCADO
-│   │
-│   ├── market_scenarios.py               # 🎯 clasificación de mercado
-│   ├── score_engine.py                   # 📊 scoring global del mercado
+├── strategy_engine/                       # 🔵 CAPA 3: DECISIÓN + LÓGICA DE TRADING
+│
+│   ├── market_scenarios.py               # 🎯 clasificación final del mercado
+│   ├── score_engine.py                   # 📊 scoring global
 │   ├── decision_engine.py                # 🧠 BUY / SELL / WAIT
 │   │
-│   └── filters/
-│       ├── noise_filter.py              # ❌ evita señales falsas
-│       ├── regime_filter.py             # 🌊 filtra mercados malos
-│       └── liquidity_filter.py          # 💧 evita baja liquidez
+│   ├── filters/                          # 🧱 FILTROS (GATEKEEPER)
+│   │   ├── base_filter.py
+│   │   ├── noise_filter.py
+│   │   ├── regime_filter.py
+│   │   ├── liquidity_filter.py
+│   │   ├── volatility_filter.py
+│   │   ├── structure_filter.py
+│   │   └── filter_pipeline.py
+│   │
+│   ├── opportunity/                      # 🎯 DETECCIÓN DE SETUPS
+│   │   │
+│   │   ├── base_detector.py             # 🧱 CONTRATO BASE (OBLIGATORIO)
+│   │   │
+│   │   ├── detectors/                   # 🔍 DETECTORES DE SETUPS
+│   │   │   ├── trend_detector.py
+│   │   │   ├── breakout_detector.py
+│   │   │   ├── pullback_detector.py
+│   │   │   ├── range_detector.py
+│   │   │   ├── liquidity_grab_detector.py
+│   │   │   ├── momentum_ignition_detector.py
+│   │   │   ├── volatility_expansion_detector.py
+│   │   │   ├── mean_reversion_detector.py
+│   │   │   ├── exhaustion_detector.py
+│   │   │   ├── reversal_detector.py
+│   │   │   ├── microRange_detector.py
+│   │   │   ├── continuationMicro_detector.py
+│   │   │
+│   │   ├── opportunity_engine.py        # 🧠 ORQUESTADOR DE DETECTORES
+│   │   └── opportunity_types.py         # 🧾 DEFINICIÓN DE ESCENARIOS
 │
 │
-├── execution/                            # 🔴 CAPA 4: EJECUCIÓN (FUTURO)
-│   ├── risk_manager.py                  # 🛑 control de riesgo
-│   ├── position_sizing.py               # 📦 tamaño de posición
-│   ├── stop_loss.py                     # ⛔ SL dinámico
-│   ├── take_profit.py                   # 🎯 TP dinámico
-│   └── portfolio_manager.py            # 💼 gestión global
+├── execution/                            # 🔴 CAPA 4: EJECUCIÓN
+│   ├── risk_manager.py
+│   ├── position_sizing.py
+│   ├── stop_loss.py
+│   ├── take_profit.py
+│   └── portfolio_manager.py
 │
 │
-├── core/                                # ⚙️ núcleo del sistema
-│   ├── pipeline.py                     # 🔗 conecta todo
-│   └── orchestrator.py                 # 🧠 flujo principal global
+├── core/                                 # ⚙️ ORQUESTACIÓN GLOBAL
+│   ├── pipeline.py
+│   └── orchestrator.py
 │
 │
 ├── storage/
-│   ├── market_cache.py                # 💾 cache de datos
-│   ├── feature_store.py               # 📦 guarda features
+│   ├── market_cache.py
+│   ├── feature_store.py
 │   └── logs/
 │       └── system.log
 │
 │
-└── main.py                             # 🚀 ENTRY POINT GENERAL
+└── main.py                               # 🚀 ENTRY POINT
+
+
