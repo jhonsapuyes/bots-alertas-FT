@@ -3,7 +3,7 @@
 import requests
 import time
 
-def get_market_data(symbol="BTCUSDT", interval="1h", limit=10, retries=3):
+def get_market_data(symbol="ETHUSDT", interval="1h", limit=10, retries=3):
 
     url = "https://api.binance.com/api/v3/klines"
 

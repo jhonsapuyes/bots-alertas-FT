@@ -35,7 +35,6 @@ class OpportunityEngine:
         ]
 
     def run(self, features, market):
-        print("OpportunityEngine",features, market )
         signals = []
 
         for detector in self.detectors:
@@ -52,4 +51,5 @@ class OpportunityEngine:
             "count": len(signals),
             "best": max(signals, key=lambda x: x["confidence"], default=None)
         }
+
 
