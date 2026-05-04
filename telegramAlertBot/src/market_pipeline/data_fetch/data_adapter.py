@@ -1,6 +1,8 @@
 
 
 def normalize_candles(raw_candles):
+    #print("normalize_candles",raw_candles)
+
     """
     Convierte data cruda de Binance a formato estándar del sistema
     """

@@ -1,6 +1,6 @@
 
 
-from ..base_detector import BaseDetector
+from ...strategy_engine.opportunity.base_detector import BaseDetector
 
 
 class ReversalDetector(BaseDetector):

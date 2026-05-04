@@ -63,5 +63,3 @@ def get_market_data(symbol="ETHUSDT", interval="1h", limit=10, retries=3):
             print("Request error:", e)
             time.sleep(1)
 
-    return []
-
