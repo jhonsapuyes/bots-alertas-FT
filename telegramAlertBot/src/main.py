@@ -13,133 +13,26 @@
     #"AVAXUSDT"
     #]
 
+from execution.execution import execute_trade_plan
+from protetion_execution.protetion_execution import protect_execution
+from storage.dataSave import save_pipeline_snapshot
 from market_pipeline.data_fetch.get_market_data import get_market_data
 
 from market_pipeline.data_fetch.data_adapter import normalize_candles
 from market_pipeline.feature_engine.engine import engine
 from market_pipeline.regime_engine.regime_classifier import classify_regime
+from opportunity_engine.opportunity_engine import run_opportunity_engine
+from risk_engine.risk_engine import build_risk
+from signal_translation.signal_translator import translate_signal
 
-from trade_planner.trade_planner import TradePlanner
+from confirmation_filter.confirmation_filter import evaluate_confirmation
+from strategy_engine.strategy_engine import build_strategy
+from trade_planner.trade_planner import build_trade_plan
 
-
-def main1():
-
-    from datetime import datetime
-
-    # -----------------------------
-    # 1. DATA INPUT
-    # -----------------------------
-    symbol = "ETHUSDT"
-    interval = "1h"
-
-    raw_data = get_market_data(
-        symbol=symbol,
-        interval=interval,
-        limit=10,
-        retries=3
-    )
-
-    candles = normalize_candles(raw_data)    
-    current_price = candles[-1]["close"]
-
-    engine_output = engine(candles)
-    print("main-engine",engine_output)
-
-    result = engine_output
-    trade_planner = TradePlanner()
-
-    trade_plan = trade_planner.plan(
-        features=result.get("features", {}),
-        decision=result.get("decision", {}),
-        price=current_price
-    )
-
-
-    def prinTry():
-        print("main-getmarket",raw_data)
-        print("main-candles",candles)
-        print("main-candles",current_price)
-        print("main-engine",engine_output)
-        print("main-trade_plan",trade_plan)
-    #prinTry()
-
-    def imprime():
-        # -----------------------------
-        # 3. TIME CONTEXT
-        # -----------------------------
-        now = datetime.now()
-
-        date_str = now.strftime("%Y-%m-%d")
-        time_str = now.strftime("%H:%M:%S")
-
-        # -----------------------------
-        # 4. DATA CLAVE
-        # -----------------------------
-        decision = result.get("decision", {})
-
-        side = trade_plan.get("side")
-        confidence = decision.get("confidence")
-        bias = decision.get("bias")
-        regime = decision.get("regime")
-        signal = decision.get("active_signal")
-
-        entry = trade_plan.get("entry_zone")
-        sl = trade_plan.get("stop_loss")
-        tp = trade_plan.get("take_profit")
-
-        # -----------------------------
-        # 5. VISIÓN DE TRADING
-        # -----------------------------
-        print("\n" + "🔥" * 40)
-        print(f"📅 DATE: {date_str} | ⏰ TIME: {time_str}")
-        print(f"📊 MARKET: {symbol} | TF: {interval}")
-        print(f"💰 PRICE: {current_price}")
-        print("-" * 40)
-
-        if side == "LONG":
-            print("🟢 SIGNAL: LONG SETUP DETECTED")
-        elif side == "SHORT":
-            print("🔴 SIGNAL: SHORT SETUP DETECTED")
-        else:
-            print("🟡 SIGNAL: NO CLEAR TRADE")
-
-        print(f"📡 REGIME: {regime}")
-        print(f"📈 BIAS: {bias}")
-        print(f"⚡ ACTIVE SIGNAL: {signal}")
-        print(f"🎯 CONFIDENCE: {confidence}")
-
-        print("-" * 40)
-
-        print("📍 ENTRY ZONE:", entry)
-        print("🛑 STOP LOSS:", sl)
-
-        if tp:
-            print("🎯 TAKE PROFIT 1:", tp.get("tp1"))
-            print("🎯 TAKE PROFIT 2:", tp.get("tp2"))
-
-        print("-" * 40)
-
-        print(f"📊 POSITION SIZE: {trade_plan.get('position_size')}")
-        print(f"⚙️ MODE: {trade_plan.get('execution_mode')}")
-
-        print("🔥" * 40)
-
-        return {
-            "date": date_str,
-            "time": time_str,
-            "symbol": symbol,
-            "price": current_price,
-            "trade_plan": trade_plan,
-            "decision": decision
-        }
 
 def main():
+    input_dataSave = {}
 
-    from datetime import datetime
-
-    # -----------------------------
-    # 1. DATA INPUT
-    # -----------------------------
     symbol = "ETHUSDT"
     interval = "1h"
 
@@ -149,23 +42,102 @@ def main():
         limit=10,
         retries=3
     )
+    input_dataSave["raw_data"] = raw_data
 
-    candles = normalize_candles(raw_data)    
-    current_price = candles[-1]["close"]
+    candles = normalize_candles(raw_data)
+    input_dataSave["candles"] = candles
 
     engine_output = engine(candles)
-    print("main-engine",engine_output)
+    input_dataSave["engine"] = engine_output
 
-    regime_output =classify_regime(engine_output)
-    print("main-regime",regime_output)
+    regime_output = classify_regime(engine_output)
+    input_dataSave["regime"] = regime_output
 
-    def prinTry():
-        print("main-getmarket",raw_data)
-        print("main-candles",candles)
-        print("main-candles",current_price)
-        print("main-engine",engine_output)
-    #prinTry()
+    opportunities = run_opportunity_engine(
+        features=engine_output,
+        regime=regime_output
+    )
+    input_dataSave["opportunities"] = opportunities
 
+    # 🔥 SIGNAL TRANSLATION LAYER
+    signals = []
+    for opp in opportunities:
+        signal = translate_signal(
+            opportunity=opp,
+            features=engine_output["features"],
+            regime=regime_output
+        )
+        signals.append(signal)
+    input_dataSave["signals"] = signals
+
+    confirmation = evaluate_confirmation({
+        "features": engine_output["features"],
+        "regime": regime_output,
+        "signal": signals[0],
+        "opportunity": opportunities[0]
+    })
+    input_dataSave["confirmation"] = confirmation
+
+
+    strategy = build_strategy({
+        "signal": signal,
+        "confirmation": confirmation,
+        "features": engine_output["features"],
+        "regime": regime_output
+    })
+    input_dataSave["strategy"] = strategy
+
+
+    #save_pipeline_snapshot(symbol,input_dataSave)
+    
+
+    risk= build_risk({
+        "strategy": strategy,              
+        "confirmation": confirmation,
+        "features": engine_output["features"],
+        "regime": regime_output
+    })
+
+
+    trade_plan = build_trade_plan({
+        "features": engine_output["features"],
+        "regime": regime_output,
+        "signal": signal,
+        "confirmation": confirmation,
+        "strategy": strategy,
+        "risk": risk
+    })
+
+
+    execution_result = execute_trade_plan(
+    trade_plan=trade_plan,
+    exchange="binance",
+    symbol="ETHUSDT"
+    )
+
+    protection = protect_execution(
+        execution_result
+    )
+
+
+    def screenPrint(pt1): 
+        if(pt1=="all"):
+            print("main-input_dataSave", input_dataSave)
+        elif(pt1=="one"):
+            print("main-raw_data", raw_data)
+            print("main-candles", candles)
+            print("main-engine", engine_output)
+            print("main-regime", regime_output)
+            print("main-opportunities", opportunities)
+            print("main-signals", signals)
+            print("main-confirmation", confirmation)
+            print("main-strategy", strategy)
+            print("main-risk", risk)
+            print("main-trade-plan", trade_plan)
+            print("main-execution", execution_result)
+            print("main-protection",protection)
+
+    screenPrint("one")
 
 if __name__ == "__main__":
     main()

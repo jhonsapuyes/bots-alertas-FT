@@ -1,0 +1,123 @@
+
+# =========================================================
+# MARKET PIPELINE
+# =========================================================
+
+PIPELINE = {
+
+    # =====================================================
+    # DATA LAYER
+    # =====================================================
+
+    "DATA_LAYER": [
+
+        ("main-raw_data", raw_data),
+
+        ("main-candles", candles)
+    ],
+
+    # =====================================================
+    # FEATURE LAYER
+    # =====================================================
+
+    "FEATURE_LAYER": [
+
+        ("main-engine", engine_output)
+    ],
+
+    # =====================================================
+    # MARKET ANALYSIS LAYER
+    # =====================================================
+
+    "MARKET_ANALYSIS_LAYER": [
+
+        ("main-regime", regime_output),
+
+        ("main-opportunities", opportunities),
+
+        ("main-signals", signals),
+
+        ("main-confirmation", confirmation)
+    ],
+
+    # =====================================================
+    # STRATEGY LAYER
+    # =====================================================
+
+    "STRATEGY_LAYER": [
+
+        ("main-strategy", strategy),
+
+        ("main-risk", risk),
+
+        ("main-trade-plan", trade_plan)
+    ],
+
+    # =====================================================
+    # EXECUTION LAYER
+    # =====================================================
+
+    "EXECUTION_LAYER": [
+
+        ("main-execution", execution_result)
+    ],
+
+    # =====================================================
+    # PROTECTION LAYER
+    # =====================================================
+
+    "PROTECTION_LAYER": [
+
+        ("main-protection", protection)
+    ]
+}
+=============================================================================
+DATA_LAYER
+│
+├── raw_data
+└── candles
+
+        ↓
+
+FEATURE_LAYER
+│
+└── engine_output
+
+        ↓
+
+MARKET_ANALYSIS_LAYER
+│
+├── regime
+├── opportunities
+├── signals
+└── confirmation
+
+        ↓
+
+STRATEGY_LAYER
+│
+├── strategy
+├── risk
+└── trade_plan
+
+        ↓
+
+EXECUTION_LAYER
+│
+└── execution
+
+        ↓
+
+PROTECTION_LAYER
+│
+└── protection
+
+
+
+=========================================================
+     TENER EN CUENTA
+=========================================================
+- EXECUTION_LAYER
+- PROTECTION_LAYER
+LAS DOS ULTIMAS CAPAS ESTAN HECHAS PERO NO SE COMO CONFIGURARLAS PARA QUE ENTREN 
+AL EXCHAIN Y HAGAN TRADING REAL

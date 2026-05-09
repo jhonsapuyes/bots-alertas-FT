@@ -110,7 +110,7 @@ def build_trend_features(trend_data):
     ll = trend_data["lower_lows"]
 
     # -------------------------
-    # BIAS (DERIVED ONLY HERE)
+    # BIAS
     # -------------------------
     bias = (
         "long" if direction == "bullish"
@@ -119,31 +119,46 @@ def build_trend_features(trend_data):
     )
 
     # -------------------------
-    # STRUCTURE INTENSITY
+    # STRUCTURE
     # -------------------------
     delta = (hh + hl) - (lh + ll)
     total = hh + hl + lh + ll
 
-    # -------------------------
-    # IS TRENDING (FIX REAL)
-    # -------------------------
-    # NO depende solo de strength
-    is_trending = (
-        direction in ["bullish", "bearish"]
-        and total > 0
-        and abs(delta) / total > 0.20
+    structure_ratio = (
+        abs(delta) / total
+        if total > 0
+        else 0
     )
 
-    # -------------------------
-    # TREND PHASE (NUEVO)
-    # -------------------------
-    # AQUÍ ENTRA LO QUE PEDÍAS: pullback / continuation
+    # =====================================================
+    # DIRECTIONALITY
+    # =====================================================
+    is_directional = (
+        direction in ["bullish", "bearish"]
+        and structure_ratio > 0.20
+    )
+
+    # =====================================================
+    # TRENDING
+    # 🔥 AHORA SÍ CORRECTO
+    # =====================================================
+    is_trending = (
+        is_directional
+        and strength == "strong"
+    )
+
+    # =====================================================
+    # TREND PHASE
+    # =====================================================
     if structure_state.endswith("recovery"):
         phase = "pullback"
-    elif is_trending and strength == "strong":
-        phase = "continuation"
-    elif is_trending and strength == "weak":
+
+    elif is_trending:
+        phase = "trend_continuation"
+
+    elif is_directional:
         phase = "weak_trend"
+
     else:
         phase = "range"
 
@@ -151,9 +166,14 @@ def build_trend_features(trend_data):
         "trend_direction": direction,
         "trend_strength": strength,
         "structure_state": structure_state,
+
+        # 🔥 NUEVO
+        "is_directional": is_directional,
+
+        # 🔥 MÁS LIMPIO
         "is_trending": is_trending,
+
         "bias": bias,
         "structure_score": delta,
         "trend_phase": phase
     }
-
