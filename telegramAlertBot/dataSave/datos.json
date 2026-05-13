@@ -1,1551 +1,381 @@
 {
     "ETHUSDT": {
-        "2026-05-06/01:30:03": {
-            "raw_data": [
-                {
-                    "timestamp": 1778014800000,
-                    "open": 2382.41,
-                    "high": 2388.54,
-                    "low": 2368.9,
-                    "close": 2375.43,
-                    "volume": 9166.3706,
-                    "close_time": 1778018399999,
-                    "quote_volume": 21809211.142025,
-                    "trades": 88775,
-                    "taker_buy_base": 4923.5999,
-                    "taker_buy_quote": 11715769.498577
-                },
-                {
-                    "timestamp": 1778018400000,
-                    "open": 2375.43,
-                    "high": 2381.68,
-                    "low": 2354.34,
-                    "close": 2367.51,
-                    "volume": 14184.5371,
-                    "close_time": 1778021999999,
-                    "quote_volume": 33583559.617026,
-                    "trades": 150029,
-                    "taker_buy_base": 5860.3189,
-                    "taker_buy_quote": 13879475.34411
-                },
-                {
-                    "timestamp": 1778022000000,
-                    "open": 2367.51,
-                    "high": 2369.75,
-                    "low": 2355.0,
-                    "close": 2360.77,
-                    "volume": 9910.3777,
-                    "close_time": 1778025599999,
-                    "quote_volume": 23407580.235691,
-                    "trades": 91244,
-                    "taker_buy_base": 3588.7293,
-                    "taker_buy_quote": 8475470.280183
-                },
-                {
-                    "timestamp": 1778025600000,
-                    "open": 2360.76,
-                    "high": 2367.72,
-                    "low": 2355.0,
-                    "close": 2364.63,
-                    "volume": 9670.6129,
-                    "close_time": 1778029199999,
-                    "quote_volume": 22834802.975321,
-                    "trades": 109461,
-                    "taker_buy_base": 5270.8581,
-                    "taker_buy_quote": 12451909.052862
-                },
-                {
-                    "timestamp": 1778029200000,
-                    "open": 2364.63,
-                    "high": 2376.99,
-                    "low": 2362.75,
-                    "close": 2373.19,
-                    "volume": 8948.2743,
-                    "close_time": 1778032799999,
-                    "quote_volume": 21209589.819001,
-                    "trades": 100033,
-                    "taker_buy_base": 4876.5933,
-                    "taker_buy_quote": 11560175.828617
-                },
-                {
-                    "timestamp": 1778032800000,
-                    "open": 2373.2,
-                    "high": 2373.7,
-                    "low": 2360.0,
-                    "close": 2369.75,
-                    "volume": 6539.2128,
-                    "close_time": 1778036399999,
-                    "quote_volume": 15478232.09313,
-                    "trades": 76993,
-                    "taker_buy_base": 3102.7559,
-                    "taker_buy_quote": 7343361.568077
-                },
-                {
-                    "timestamp": 1778036400000,
-                    "open": 2369.75,
-                    "high": 2380.87,
-                    "low": 2368.08,
-                    "close": 2376.8,
-                    "volume": 7896.7032,
-                    "close_time": 1778039999999,
-                    "quote_volume": 18748524.375694,
-                    "trades": 98493,
-                    "taker_buy_base": 4260.7417,
-                    "taker_buy_quote": 10115300.096427
-                },
-                {
-                    "timestamp": 1778040000000,
-                    "open": 2376.81,
-                    "high": 2379.4,
-                    "low": 2361.25,
-                    "close": 2366.08,
-                    "volume": 7910.6015,
-                    "close_time": 1778043599999,
-                    "quote_volume": 18751470.070606,
-                    "trades": 86294,
-                    "taker_buy_base": 3428.6289,
-                    "taker_buy_quote": 8127395.475835
-                },
-                {
-                    "timestamp": 1778043600000,
-                    "open": 2366.08,
-                    "high": 2366.99,
-                    "low": 2355.0,
-                    "close": 2365.03,
-                    "volume": 11450.5782,
-                    "close_time": 1778047199999,
-                    "quote_volume": 27036603.876543,
-                    "trades": 84949,
-                    "taker_buy_base": 5019.9931,
-                    "taker_buy_quote": 11853355.820501
-                },
-                {
-                    "timestamp": 1778047200000,
-                    "open": 2365.03,
-                    "high": 2366.71,
-                    "low": 2361.0,
-                    "close": 2365.43,
-                    "volume": 2800.8948,
-                    "close_time": 1778050799999,
-                    "quote_volume": 6620790.679134,
-                    "trades": 30432,
-                    "taker_buy_base": 1732.6385,
-                    "taker_buy_quote": 4095888.694145
-                }
-            ],
-            "candles": [
-                {
-                    "timestamp": 1778014800000,
-                    "open": 2382.41,
-                    "high": 2388.54,
-                    "low": 2368.9,
-                    "close": 2375.43,
-                    "volume": 9166.3706
-                },
-                {
-                    "timestamp": 1778018400000,
-                    "open": 2375.43,
-                    "high": 2381.68,
-                    "low": 2354.34,
-                    "close": 2367.51,
-                    "volume": 14184.5371
-                },
-                {
-                    "timestamp": 1778022000000,
-                    "open": 2367.51,
-                    "high": 2369.75,
-                    "low": 2355.0,
-                    "close": 2360.77,
-                    "volume": 9910.3777
-                },
-                {
-                    "timestamp": 1778025600000,
-                    "open": 2360.76,
-                    "high": 2367.72,
-                    "low": 2355.0,
-                    "close": 2364.63,
-                    "volume": 9670.6129
-                },
-                {
-                    "timestamp": 1778029200000,
-                    "open": 2364.63,
-                    "high": 2376.99,
-                    "low": 2362.75,
-                    "close": 2373.19,
-                    "volume": 8948.2743
-                },
-                {
-                    "timestamp": 1778032800000,
-                    "open": 2373.2,
-                    "high": 2373.7,
-                    "low": 2360.0,
-                    "close": 2369.75,
-                    "volume": 6539.2128
-                },
-                {
-                    "timestamp": 1778036400000,
-                    "open": 2369.75,
-                    "high": 2380.87,
-                    "low": 2368.08,
-                    "close": 2376.8,
-                    "volume": 7896.7032
-                },
-                {
-                    "timestamp": 1778040000000,
-                    "open": 2376.81,
-                    "high": 2379.4,
-                    "low": 2361.25,
-                    "close": 2366.08,
-                    "volume": 7910.6015
-                },
-                {
-                    "timestamp": 1778043600000,
-                    "open": 2366.08,
-                    "high": 2366.99,
-                    "low": 2355.0,
-                    "close": 2365.03,
-                    "volume": 11450.5782
-                },
-                {
-                    "timestamp": 1778047200000,
-                    "open": 2365.03,
-                    "high": 2366.71,
-                    "low": 2361.0,
-                    "close": 2365.43,
-                    "volume": 2800.8948
-                }
-            ],
-            "engine": {
-                "features": {
-                    "trend": {
-                        "trend_direction": "bearish",
-                        "trend_strength": "weak",
-                        "structure_state": "bearish",
-                        "is_trending": true,
-                        "bias": "short",
-                        "structure_score": -6,
-                        "trend_phase": "weak_trend"
+        "2026-05-13/13:27:07": {
+            "datalayer": {
+                "raw_data": [
+                    {
+                        "timestamp": 1778662800000,
+                        "open": 2316.65,
+                        "high": 2323.36,
+                        "low": 2314.45,
+                        "close": 2321.19,
+                        "volume": 12175.5618,
+                        "close_time": 1778666399999,
+                        "quote_volume": 28246576.721551,
+                        "trades": 77088,
+                        "taker_buy_base": 6711.874,
+                        "taker_buy_quote": 15570693.618074
                     },
-                    "momentum": {
-                        "momentum_state": "neutral",
-                        "momentum_strength": "moderate",
-                        "entry_timing": "neutral",
-                        "continuation": false,
-                        "rsi": null
+                    {
+                        "timestamp": 1778666400000,
+                        "open": 2321.18,
+                        "high": 2321.6,
+                        "low": 2305.55,
+                        "close": 2308.46,
+                        "volume": 7214.562,
+                        "close_time": 1778669999999,
+                        "quote_volume": 16681091.635877,
+                        "trades": 69442,
+                        "taker_buy_base": 3130.0189,
+                        "taker_buy_quote": 7235661.053149
                     },
-                    "volatility": {
-                        "volatility_level": "medium",
-                        "std_dev": 0.002841049047992268,
-                        "avg_range": 15.102999999999884
+                    {
+                        "timestamp": 1778670000000,
+                        "open": 2308.46,
+                        "high": 2308.91,
+                        "low": 2299.0,
+                        "close": 2301.82,
+                        "volume": 8961.8603,
+                        "close_time": 1778673599999,
+                        "quote_volume": 20639693.837158,
+                        "trades": 99884,
+                        "taker_buy_base": 5217.3486,
+                        "taker_buy_quote": 12017184.429599
                     },
-                    "price": {
-                        "last_open": 2365.03,
-                        "last_close": 2365.43,
-                        "last_high": 2366.71,
-                        "last_low": 2361.0,
-                        "range": 5.710000000000036,
-                        "body": 0.3999999999996362,
-                        "direction": "bullish"
+                    {
+                        "timestamp": 1778673600000,
+                        "open": 2301.83,
+                        "high": 2307.54,
+                        "low": 2270.01,
+                        "close": 2284.35,
+                        "volume": 21804.2465,
+                        "close_time": 1778677199999,
+                        "quote_volume": 49851597.662764,
+                        "trades": 220286,
+                        "taker_buy_base": 9550.025,
+                        "taker_buy_quote": 21852190.433725
+                    },
+                    {
+                        "timestamp": 1778677200000,
+                        "open": 2284.35,
+                        "high": 2288.31,
+                        "low": 2258.51,
+                        "close": 2262.8,
+                        "volume": 25468.6809,
+                        "close_time": 1778680799999,
+                        "quote_volume": 57825809.133501,
+                        "trades": 201349,
+                        "taker_buy_base": 12253.1816,
+                        "taker_buy_quote": 27824594.36893
+                    },
+                    {
+                        "timestamp": 1778680800000,
+                        "open": 2262.8,
+                        "high": 2270.97,
+                        "low": 2251.05,
+                        "close": 2267.39,
+                        "volume": 23727.9378,
+                        "close_time": 1778684399999,
+                        "quote_volume": 53692991.956532,
+                        "trades": 138193,
+                        "taker_buy_base": 12466.7113,
+                        "taker_buy_quote": 28209512.845808
+                    },
+                    {
+                        "timestamp": 1778684400000,
+                        "open": 2267.39,
+                        "high": 2270.25,
+                        "low": 2234.13,
+                        "close": 2236.49,
+                        "volume": 30418.8782,
+                        "close_time": 1778687999999,
+                        "quote_volume": 68427499.608908,
+                        "trades": 178651,
+                        "taker_buy_base": 11656.4196,
+                        "taker_buy_quote": 26228898.132038
+                    },
+                    {
+                        "timestamp": 1778688000000,
+                        "open": 2236.48,
+                        "high": 2253.35,
+                        "low": 2235.48,
+                        "close": 2250.75,
+                        "volume": 23968.6256,
+                        "close_time": 1778691599999,
+                        "quote_volume": 53793061.211313,
+                        "trades": 123038,
+                        "taker_buy_base": 12625.6994,
+                        "taker_buy_quote": 28337170.8852
+                    },
+                    {
+                        "timestamp": 1778691600000,
+                        "open": 2250.75,
+                        "high": 2261.77,
+                        "low": 2250.75,
+                        "close": 2258.31,
+                        "volume": 9344.9691,
+                        "close_time": 1778695199999,
+                        "quote_volume": 21091321.726852,
+                        "trades": 70121,
+                        "taker_buy_base": 4246.8298,
+                        "taker_buy_quote": 9583662.802681
+                    },
+                    {
+                        "timestamp": 1778695200000,
+                        "open": 2258.32,
+                        "high": 2268.49,
+                        "low": 2258.32,
+                        "close": 2266.78,
+                        "volume": 9037.4394,
+                        "close_time": 1778698799999,
+                        "quote_volume": 20458043.325008,
+                        "trades": 37793,
+                        "taker_buy_base": 5018.7141,
+                        "taker_buy_quote": 11361572.646637
                     }
-                },
-                "debug": {
-                    "returns": [
-                        -0.003334133188517287,
-                        -0.00284687287487708,
-                        0.0016350597474553334,
-                        0.0036200166622262025,
-                        -0.0014495257438300576,
-                        0.0029749973625910675,
-                        -0.004510265903736222,
-                        -0.00044377197727875947,
-                        0.00016913104696330962
-                    ],
-                    "trend_raw": {
-                        "direction": "bearish",
-                        "structure_state": "bearish",
-                        "strength": "weak",
-                        "ema_trend": null,
-                        "higher_highs": 2,
-                        "higher_lows": 4,
-                        "lower_highs": 7,
-                        "lower_lows": 5
-                    },
-                    "momentum_raw": {
-                        "momentum": "neutral",
-                        "rsi": null,
-                        "momentum_value": -4.320000000000164,
-                        "macd_state": null
-                    },
-                    "volatility_raw": {
-                        "std_dev": 0.002841049047992268,
-                        "avg_range": 15.102999999999884,
-                        "volatility_level": "normal"
-                    }
-                }
-            },
-            "regime": {
-                "trend_phase": "weak_trend",
-                "market_regime": "weak_trend",
-                "pressure": "neutral",
-                "quality": "low"
-            },
-            "opportunities": [
-                {
-                    "type": "micro_range",
-                    "direction": "neutral",
-                    "valid": true,
-                    "strength": "medium"
-                }
-            ],
-            "signals": [
-                {
-                    "type": "micro_range",
-                    "bias": "neutral",
-                    "confidence": 0.27,
-                    "context": {
-                        "regime": "weak_trend",
-                        "pressure": "neutral",
-                        "trend_alignment": false
-                    },
-                    "invalidations": {
-                        "structure_break": false,
-                        "opposite_pressure": "no_pressure"
-                    },
-                    "execution_hints": {
-                        "aggression": "low",
-                        "entry_style": "limit_reversion",
-                        "avoid": [
-                            "trend_conflict",
-                            "weak_edge"
-                        ]
-                    }
-                }
-            ],
-            "confirmation": {
-                "confirmed": false,
-                "signal_state": "rejected",
-                "confidence_score": 0.27,
-                "execution": {
-                    "permission": "blocked",
-                    "priority": "low",
-                    "mode": "skip"
-                },
-                "position_bias": "none",
-                "quality": {
-                    "tier": "D",
-                    "label": "noise"
-                },
-                "edge_components": {
-                    "trend_alignment": 0,
-                    "momentum_confirmation": 0,
-                    "regime_fit": 0,
-                    "volatility_suitability": 0,
-                    "signal_integrity": 0
-                },
-                "risk": {
-                    "size_multiplier": 0.0,
-                    "max_risk_pct": 0.0,
-                    "aggression_level": "low"
-                },
-                "trade_management": {
-                    "entry_style": "limit",
-                    "time_validity": "short",
-                    "scale_in_allowed": false
-                },
-                "reasons": [
-                    "signal confidence too low"
                 ],
-                "invalidations": [
-                    "no trade"
-                ],
-                "meta": {
-                    "regime": "weak_trend",
-                    "signal_type": "micro_range",
-                    "timestamp": 0
-                }
-            },
-            "strategy": {
-                "valid": false,
-                "strategy": {
-                    "entry_type": "none",
-                    "entry_logic": "blocked",
-                    "entry_zone": "none",
-                    "confirmation": false,
-                    "timeframe_alignment": false,
-                    "aggressiveness": "low"
-                },
-                "execution_profile": {
-                    "mode": "skip",
-                    "priority": "low",
-                    "risk_profile": "conservative",
-                    "size_multiplier": 0.0,
-                    "max_risk_pct": 0.0
-                },
-                "context": {
-                    "regime": "weak_trend",
-                    "signal_type": "micro_range",
-                    "timestamp": 0
-                },
-                "reasons": [
-                    "blocked by confirmation layer"
+                "candles": [
+                    {
+                        "timestamp": 1778662800000,
+                        "open": 2316.65,
+                        "high": 2323.36,
+                        "low": 2314.45,
+                        "close": 2321.19,
+                        "volume": 12175.5618
+                    },
+                    {
+                        "timestamp": 1778666400000,
+                        "open": 2321.18,
+                        "high": 2321.6,
+                        "low": 2305.55,
+                        "close": 2308.46,
+                        "volume": 7214.562
+                    },
+                    {
+                        "timestamp": 1778670000000,
+                        "open": 2308.46,
+                        "high": 2308.91,
+                        "low": 2299.0,
+                        "close": 2301.82,
+                        "volume": 8961.8603
+                    },
+                    {
+                        "timestamp": 1778673600000,
+                        "open": 2301.83,
+                        "high": 2307.54,
+                        "low": 2270.01,
+                        "close": 2284.35,
+                        "volume": 21804.2465
+                    },
+                    {
+                        "timestamp": 1778677200000,
+                        "open": 2284.35,
+                        "high": 2288.31,
+                        "low": 2258.51,
+                        "close": 2262.8,
+                        "volume": 25468.6809
+                    },
+                    {
+                        "timestamp": 1778680800000,
+                        "open": 2262.8,
+                        "high": 2270.97,
+                        "low": 2251.05,
+                        "close": 2267.39,
+                        "volume": 23727.9378
+                    },
+                    {
+                        "timestamp": 1778684400000,
+                        "open": 2267.39,
+                        "high": 2270.25,
+                        "low": 2234.13,
+                        "close": 2236.49,
+                        "volume": 30418.8782
+                    },
+                    {
+                        "timestamp": 1778688000000,
+                        "open": 2236.48,
+                        "high": 2253.35,
+                        "low": 2235.48,
+                        "close": 2250.75,
+                        "volume": 23968.6256
+                    },
+                    {
+                        "timestamp": 1778691600000,
+                        "open": 2250.75,
+                        "high": 2261.77,
+                        "low": 2250.75,
+                        "close": 2258.31,
+                        "volume": 9344.9691
+                    },
+                    {
+                        "timestamp": 1778695200000,
+                        "open": 2258.32,
+                        "high": 2268.49,
+                        "low": 2258.32,
+                        "close": 2266.78,
+                        "volume": 9037.4394
+                    }
                 ]
-            }
-        },
-        "2026-05-06/13:44:29": {
-            "raw_data": [
-                {
-                    "timestamp": 1778058000000,
-                    "open": 2394.32,
-                    "high": 2418.39,
-                    "low": 2384.8,
-                    "close": 2412.76,
-                    "volume": 47718.3765,
-                    "close_time": 1778061599999,
-                    "quote_volume": 114631484.275057,
-                    "trades": 233732,
-                    "taker_buy_base": 25575.798,
-                    "taker_buy_quote": 61448496.528757
-                },
-                {
-                    "timestamp": 1778061600000,
-                    "open": 2412.77,
-                    "high": 2414.43,
-                    "low": 2405.18,
-                    "close": 2410.2,
-                    "volume": 17192.8972,
-                    "close_time": 1778065199999,
-                    "quote_volume": 41455795.978316,
-                    "trades": 143476,
-                    "taker_buy_base": 8746.7598,
-                    "taker_buy_quote": 21090411.401362
-                },
-                {
-                    "timestamp": 1778065200000,
-                    "open": 2410.2,
-                    "high": 2423.74,
-                    "low": 2408.34,
-                    "close": 2410.47,
-                    "volume": 30434.9349,
-                    "close_time": 1778068799999,
-                    "quote_volume": 73532134.664622,
-                    "trades": 169903,
-                    "taker_buy_base": 14199.0819,
-                    "taker_buy_quote": 34304580.206343
-                },
-                {
-                    "timestamp": 1778068800000,
-                    "open": 2410.47,
-                    "high": 2413.59,
-                    "low": 2400.55,
-                    "close": 2405.11,
-                    "volume": 22282.1291,
-                    "close_time": 1778072399999,
-                    "quote_volume": 53644965.180719,
-                    "trades": 147419,
-                    "taker_buy_base": 10722.7172,
-                    "taker_buy_quote": 25823475.695136
-                },
-                {
-                    "timestamp": 1778072400000,
-                    "open": 2405.11,
-                    "high": 2405.11,
-                    "low": 2365.01,
-                    "close": 2368.51,
-                    "volume": 42551.5633,
-                    "close_time": 1778075999999,
-                    "quote_volume": 101390778.051011,
-                    "trades": 344872,
-                    "taker_buy_base": 19482.7478,
-                    "taker_buy_quote": 46424137.384704
-                },
-                {
-                    "timestamp": 1778076000000,
-                    "open": 2368.52,
-                    "high": 2373.29,
-                    "low": 2346.68,
-                    "close": 2359.23,
-                    "volume": 51777.3181,
-                    "close_time": 1778079599999,
-                    "quote_volume": 122258343.501662,
-                    "trades": 311886,
-                    "taker_buy_base": 22436.7686,
-                    "taker_buy_quote": 52983182.527551
-                },
-                {
-                    "timestamp": 1778079600000,
-                    "open": 2359.23,
-                    "high": 2366.0,
-                    "low": 2354.98,
-                    "close": 2359.1,
-                    "volume": 20851.531,
-                    "close_time": 1778083199999,
-                    "quote_volume": 49206761.804631,
-                    "trades": 146458,
-                    "taker_buy_base": 8466.0073,
-                    "taker_buy_quote": 19979752.170512
-                },
-                {
-                    "timestamp": 1778083200000,
-                    "open": 2359.1,
-                    "high": 2367.47,
-                    "low": 2350.56,
-                    "close": 2358.08,
-                    "volume": 19002.5503,
-                    "close_time": 1778086799999,
-                    "quote_volume": 44816399.657427,
-                    "trades": 129744,
-                    "taker_buy_base": 7641.1936,
-                    "taker_buy_quote": 18025956.473245
-                },
-                {
-                    "timestamp": 1778086800000,
-                    "open": 2358.09,
-                    "high": 2360.99,
-                    "low": 2347.71,
-                    "close": 2349.7,
-                    "volume": 13561.1973,
-                    "close_time": 1778090399999,
-                    "quote_volume": 31918742.560883,
-                    "trades": 96686,
-                    "taker_buy_base": 4260.0057,
-                    "taker_buy_quote": 10026566.511467
-                },
-                {
-                    "timestamp": 1778090400000,
-                    "open": 2349.71,
-                    "high": 2352.55,
-                    "low": 2338.0,
-                    "close": 2347.01,
-                    "volume": 15893.3934,
-                    "close_time": 1778093999999,
-                    "quote_volume": 37283515.975389,
-                    "trades": 101851,
-                    "taker_buy_base": 6397.3282,
-                    "taker_buy_quote": 15005473.993261
-                }
-            ],
-            "candles": [
-                {
-                    "timestamp": 1778058000000,
-                    "open": 2394.32,
-                    "high": 2418.39,
-                    "low": 2384.8,
-                    "close": 2412.76,
-                    "volume": 47718.3765
-                },
-                {
-                    "timestamp": 1778061600000,
-                    "open": 2412.77,
-                    "high": 2414.43,
-                    "low": 2405.18,
-                    "close": 2410.2,
-                    "volume": 17192.8972
-                },
-                {
-                    "timestamp": 1778065200000,
-                    "open": 2410.2,
-                    "high": 2423.74,
-                    "low": 2408.34,
-                    "close": 2410.47,
-                    "volume": 30434.9349
-                },
-                {
-                    "timestamp": 1778068800000,
-                    "open": 2410.47,
-                    "high": 2413.59,
-                    "low": 2400.55,
-                    "close": 2405.11,
-                    "volume": 22282.1291
-                },
-                {
-                    "timestamp": 1778072400000,
-                    "open": 2405.11,
-                    "high": 2405.11,
-                    "low": 2365.01,
-                    "close": 2368.51,
-                    "volume": 42551.5633
-                },
-                {
-                    "timestamp": 1778076000000,
-                    "open": 2368.52,
-                    "high": 2373.29,
-                    "low": 2346.68,
-                    "close": 2359.23,
-                    "volume": 51777.3181
-                },
-                {
-                    "timestamp": 1778079600000,
-                    "open": 2359.23,
-                    "high": 2366.0,
-                    "low": 2354.98,
-                    "close": 2359.1,
-                    "volume": 20851.531
-                },
-                {
-                    "timestamp": 1778083200000,
-                    "open": 2359.1,
-                    "high": 2367.47,
-                    "low": 2350.56,
-                    "close": 2358.08,
-                    "volume": 19002.5503
-                },
-                {
-                    "timestamp": 1778086800000,
-                    "open": 2358.09,
-                    "high": 2360.99,
-                    "low": 2347.71,
-                    "close": 2349.7,
-                    "volume": 13561.1973
-                },
-                {
-                    "timestamp": 1778090400000,
-                    "open": 2349.71,
-                    "high": 2352.55,
-                    "low": 2338.0,
-                    "close": 2347.01,
-                    "volume": 15893.3934
-                }
-            ],
-            "engine": {
-                "features": {
-                    "trend": {
-                        "trend_direction": "bearish",
-                        "trend_strength": "weak",
-                        "structure_state": "bearish",
-                        "is_trending": true,
-                        "bias": "short",
-                        "structure_score": -8,
-                        "trend_phase": "weak_trend"
+            },
+            "featureLayer": {
+                "feature": {
+                    "features": {
+                        "trend": {
+                            "trend_direction": "bearish",
+                            "trend_strength": "weak",
+                            "structure_state": "bearish",
+                            "is_trending": false,
+                            "bias": "short",
+                            "structure_score": -8,
+                            "trend_phase": "weak_trend"
+                        },
+                        "momentum": {
+                            "momentum_state": "neutral",
+                            "momentum_strength": "weak",
+                            "entry_timing": "neutral",
+                            "continuation": false,
+                            "rsi": null
+                        },
+                        "volatility": {
+                            "volatility_level": "high",
+                            "std_dev": 0.00688693083104796,
+                            "avg_range": 19.729999999999837
+                        },
+                        "price": {
+                            "last_open": 2258.32,
+                            "last_close": 2266.78,
+                            "last_high": 2268.49,
+                            "last_low": 2258.32,
+                            "range": 10.169999999999618,
+                            "body": 8.460000000000036,
+                            "direction": "bullish"
+                        }
                     },
-                    "momentum": {
-                        "momentum_state": "neutral",
-                        "momentum_strength": "strong",
-                        "entry_timing": "neutral",
-                        "continuation": false,
-                        "rsi": null
-                    },
-                    "volatility": {
-                        "volatility_level": "medium",
-                        "std_dev": 0.004784688413085297,
-                        "avg_range": 19.374999999999908
-                    },
-                    "price": {
-                        "last_open": 2349.71,
-                        "last_close": 2347.01,
-                        "last_high": 2352.55,
-                        "last_low": 2338.0,
-                        "range": 14.550000000000182,
-                        "body": 2.699999999999818,
-                        "direction": "bearish"
+                    "debug": {
+                        "returns": [
+                            -0.005484255920454602,
+                            -0.0028763764587646625,
+                            -0.0075896464536758974,
+                            -0.009433755772976877,
+                            0.0020284603146542737,
+                            -0.013628004004604453,
+                            0.006376062490778058,
+                            0.003358880373208906,
+                            0.003750592257041883
+                        ],
+                        "trend_raw": {
+                            "direction": "bearish",
+                            "structure_state": "bearish",
+                            "strength": "weak",
+                            "ema_trend": null,
+                            "higher_highs": 2,
+                            "higher_lows": 3,
+                            "lower_highs": 7,
+                            "lower_lows": 6
+                        },
+                        "momentum_raw": {
+                            "momentum": "neutral",
+                            "rsi": null,
+                            "momentum_value": -0.6099999999996726,
+                            "macd_state": null
+                        },
+                        "volatility_raw": {
+                            "std_dev": 0.00688693083104796,
+                            "avg_range": 19.729999999999837,
+                            "volatility_level": "normal"
+                        }
                     }
+                }
+            },
+            "marketAnalysisLayer": {
+                "regime": {
+                    "trend_phase": "weak_trend",
+                    "market_regime": "weak_trend",
+                    "pressure": "neutral",
+                    "quality": "low"
                 },
-                "debug": {
-                    "returns": [
-                        -0.0010610255475059268,
-                        0.00011202389843165788,
-                        -0.0022236327355244717,
-                        -0.015217599195047173,
-                        -0.0039180750767360915,
-                        -5.510272419395699e-05,
-                        -0.00043236827603746424,
-                        -0.003553738634821596,
-                        -0.001144826999191216
+                "opportunity": [
+                    {
+                        "type": "micro_range",
+                        "direction": "neutral",
+                        "valid": true,
+                        "strength": "medium"
+                    }
+                ],
+                "signal": [
+                    {
+                        "type": "micro_range",
+                        "bias": "neutral",
+                        "confidence": 0.21,
+                        "context": {
+                            "regime": "weak_trend",
+                            "pressure": "neutral",
+                            "trend_alignment": false
+                        },
+                        "invalidations": {
+                            "structure_break": true,
+                            "opposite_pressure": "no_pressure"
+                        },
+                        "execution_hints": {
+                            "aggression": "low",
+                            "entry_style": "limit_reversion",
+                            "avoid": [
+                                "trend_conflict",
+                                "structure_instability",
+                                "weak_edge"
+                            ]
+                        }
+                    }
+                ],
+                "confirmation": {
+                    "confirmed": true,
+                    "signal_state": "setup_valid",
+                    "confidence_score": 0.521,
+                    "execution": {
+                        "permission": "reduced",
+                        "priority": "low",
+                        "mode": "passive"
+                    },
+                    "position_bias": "none",
+                    "quality": {
+                        "tier": "B",
+                        "label": "solid"
+                    },
+                    "edge_components": {
+                        "trend_alignment": 0.47,
+                        "momentum_confirmation": 0.5,
+                        "regime_fit": 0.7,
+                        "volatility_suitability": 0.55,
+                        "signal_integrity": 0.37
+                    },
+                    "risk": {
+                        "size_multiplier": 0.75,
+                        "max_risk_pct": 0.75,
+                        "aggression_level": "medium"
+                    },
+                    "trade_management": {
+                        "entry_style": "limit",
+                        "time_validity": "short",
+                        "scale_in_allowed": false
+                    },
+                    "reasons": [
+                        "weak trend reduces conviction",
+                        "momentum not confirming direction",
+                        "limited expansion regime",
+                        "signal confidence not strong"
                     ],
-                    "trend_raw": {
-                        "direction": "bearish",
-                        "structure_state": "bearish",
-                        "strength": "weak",
-                        "ema_trend": null,
-                        "higher_highs": 2,
-                        "higher_lows": 3,
-                        "lower_highs": 7,
-                        "lower_lows": 6
-                    },
-                    "momentum_raw": {
-                        "momentum": "neutral",
-                        "rsi": null,
-                        "momentum_value": -12.2199999999998,
-                        "macd_state": null
-                    },
-                    "volatility_raw": {
-                        "std_dev": 0.004784688413085297,
-                        "avg_range": 19.374999999999908,
-                        "volatility_level": "normal"
-                    }
-                }
-            },
-            "regime": {
-                "trend_phase": "weak_trend",
-                "market_regime": "weak_trend",
-                "pressure": "neutral",
-                "quality": "low"
-            },
-            "opportunities": [
-                {
-                    "type": "micro_range",
-                    "direction": "neutral",
-                    "valid": true,
-                    "strength": "medium"
-                }
-            ],
-            "signals": [
-                {
-                    "type": "micro_range",
-                    "bias": "neutral",
-                    "confidence": 0.26,
-                    "context": {
-                        "regime": "weak_trend",
-                        "pressure": "neutral",
-                        "trend_alignment": false
-                    },
-                    "invalidations": {
-                        "structure_break": false,
-                        "opposite_pressure": "no_pressure"
-                    },
-                    "execution_hints": {
-                        "aggression": "low",
-                        "entry_style": "limit_reversion",
-                        "avoid": [
-                            "trend_conflict",
-                            "weak_edge"
-                        ]
-                    }
-                }
-            ],
-            "confirmation": {
-                "confirmed": false,
-                "signal_state": "rejected",
-                "confidence_score": 0.26,
-                "execution": {
-                    "permission": "blocked",
-                    "priority": "low",
-                    "mode": "skip"
-                },
-                "position_bias": "none",
-                "quality": {
-                    "tier": "D",
-                    "label": "noise"
-                },
-                "edge_components": {
-                    "trend_alignment": 0,
-                    "momentum_confirmation": 0,
-                    "regime_fit": 0,
-                    "volatility_suitability": 0,
-                    "signal_integrity": 0
-                },
-                "risk": {
-                    "size_multiplier": 0.0,
-                    "max_risk_pct": 0.0,
-                    "aggression_level": "low"
-                },
-                "trade_management": {
-                    "entry_style": "limit",
-                    "time_validity": "short",
-                    "scale_in_allowed": false
-                },
-                "reasons": [
-                    "signal confidence too low"
-                ],
-                "invalidations": [
-                    "no trade"
-                ],
-                "meta": {
-                    "regime": "weak_trend",
-                    "signal_type": "micro_range",
-                    "timestamp": 0
-                }
-            },
-            "strategy": {
-                "valid": false,
-                "strategy": {
-                    "entry_type": "none",
-                    "entry_logic": "blocked",
-                    "entry_zone": "none",
-                    "confirmation": false,
-                    "timeframe_alignment": false,
-                    "aggressiveness": "low"
-                },
-                "execution_profile": {
-                    "mode": "skip",
-                    "priority": "low",
-                    "risk_profile": "conservative",
-                    "size_multiplier": 0.0,
-                    "max_risk_pct": 0.0
-                },
-                "context": {
-                    "regime": "weak_trend",
-                    "signal_type": "micro_range",
-                    "timestamp": 0
-                },
-                "reasons": [
-                    "blocked by confirmation layer"
-                ]
-            }
-        },
-        "2026-05-07/16:07:09": {
-            "raw_data": [
-                {
-                    "timestamp": 1778155200000,
-                    "open": 2329.94,
-                    "high": 2337.13,
-                    "low": 2329.04,
-                    "close": 2333.01,
-                    "volume": 12385.8948,
-                    "close_time": 1778158799999,
-                    "quote_volume": 28899189.010609,
-                    "trades": 98529,
-                    "taker_buy_base": 5160.8833,
-                    "taker_buy_quote": 12040625.78074
-                },
-                {
-                    "timestamp": 1778158800000,
-                    "open": 2333.02,
-                    "high": 2333.02,
-                    "low": 2305.4,
-                    "close": 2314.32,
-                    "volume": 39011.6686,
-                    "close_time": 1778162399999,
-                    "quote_volume": 90413045.704844,
-                    "trades": 256523,
-                    "taker_buy_base": 16522.0573,
-                    "taker_buy_quote": 38297214.874429
-                },
-                {
-                    "timestamp": 1778162400000,
-                    "open": 2314.32,
-                    "high": 2318.75,
-                    "low": 2289.51,
-                    "close": 2298.98,
-                    "volume": 46781.2234,
-                    "close_time": 1778165999999,
-                    "quote_volume": 107731975.726178,
-                    "trades": 283395,
-                    "taker_buy_base": 16852.7954,
-                    "taker_buy_quote": 38803284.397648
-                },
-                {
-                    "timestamp": 1778166000000,
-                    "open": 2298.98,
-                    "high": 2304.52,
-                    "low": 2285.95,
-                    "close": 2294.82,
-                    "volume": 31328.1654,
-                    "close_time": 1778169599999,
-                    "quote_volume": 71899374.920172,
-                    "trades": 217316,
-                    "taker_buy_base": 13191.4655,
-                    "taker_buy_quote": 30270679.748464
-                },
-                {
-                    "timestamp": 1778169600000,
-                    "open": 2294.82,
-                    "high": 2298.2,
-                    "low": 2285.37,
-                    "close": 2291.81,
-                    "volume": 28001.1937,
-                    "close_time": 1778173199999,
-                    "quote_volume": 64185217.06831,
-                    "trades": 191716,
-                    "taker_buy_base": 9670.3274,
-                    "taker_buy_quote": 22166828.394655
-                },
-                {
-                    "timestamp": 1778173200000,
-                    "open": 2291.81,
-                    "high": 2301.25,
-                    "low": 2280.1,
-                    "close": 2299.6,
-                    "volume": 28378.658,
-                    "close_time": 1778176799999,
-                    "quote_volume": 65018919.258456,
-                    "trades": 194136,
-                    "taker_buy_base": 10115.5126,
-                    "taker_buy_quote": 23176320.29893
-                },
-                {
-                    "timestamp": 1778176800000,
-                    "open": 2299.61,
-                    "high": 2304.0,
-                    "low": 2291.27,
-                    "close": 2296.19,
-                    "volume": 23860.3486,
-                    "close_time": 1778180399999,
-                    "quote_volume": 54872377.831571,
-                    "trades": 164723,
-                    "taker_buy_base": 9549.643,
-                    "taker_buy_quote": 21959350.336886
-                },
-                {
-                    "timestamp": 1778180400000,
-                    "open": 2296.18,
-                    "high": 2297.09,
-                    "low": 2287.88,
-                    "close": 2295.98,
-                    "volume": 18517.2817,
-                    "close_time": 1778183999999,
-                    "quote_volume": 42462451.236357,
-                    "trades": 137463,
-                    "taker_buy_base": 7056.8957,
-                    "taker_buy_quote": 16181693.125411
-                },
-                {
-                    "timestamp": 1778184000000,
-                    "open": 2295.98,
-                    "high": 2302.57,
-                    "low": 2287.94,
-                    "close": 2289.1,
-                    "volume": 34000.8584,
-                    "close_time": 1778187599999,
-                    "quote_volume": 77970274.857188,
-                    "trades": 124019,
-                    "taker_buy_base": 8009.0598,
-                    "taker_buy_quote": 18367518.97857
-                },
-                {
-                    "timestamp": 1778187600000,
-                    "open": 2289.1,
-                    "high": 2290.47,
-                    "low": 2284.04,
-                    "close": 2284.98,
-                    "volume": 1690.6281,
-                    "close_time": 1778191199999,
-                    "quote_volume": 3868394.065952,
-                    "trades": 11067,
-                    "taker_buy_base": 389.8836,
-                    "taker_buy_quote": 892098.052912
-                }
-            ],
-            "candles": [
-                {
-                    "timestamp": 1778155200000,
-                    "open": 2329.94,
-                    "high": 2337.13,
-                    "low": 2329.04,
-                    "close": 2333.01,
-                    "volume": 12385.8948
-                },
-                {
-                    "timestamp": 1778158800000,
-                    "open": 2333.02,
-                    "high": 2333.02,
-                    "low": 2305.4,
-                    "close": 2314.32,
-                    "volume": 39011.6686
-                },
-                {
-                    "timestamp": 1778162400000,
-                    "open": 2314.32,
-                    "high": 2318.75,
-                    "low": 2289.51,
-                    "close": 2298.98,
-                    "volume": 46781.2234
-                },
-                {
-                    "timestamp": 1778166000000,
-                    "open": 2298.98,
-                    "high": 2304.52,
-                    "low": 2285.95,
-                    "close": 2294.82,
-                    "volume": 31328.1654
-                },
-                {
-                    "timestamp": 1778169600000,
-                    "open": 2294.82,
-                    "high": 2298.2,
-                    "low": 2285.37,
-                    "close": 2291.81,
-                    "volume": 28001.1937
-                },
-                {
-                    "timestamp": 1778173200000,
-                    "open": 2291.81,
-                    "high": 2301.25,
-                    "low": 2280.1,
-                    "close": 2299.6,
-                    "volume": 28378.658
-                },
-                {
-                    "timestamp": 1778176800000,
-                    "open": 2299.61,
-                    "high": 2304.0,
-                    "low": 2291.27,
-                    "close": 2296.19,
-                    "volume": 23860.3486
-                },
-                {
-                    "timestamp": 1778180400000,
-                    "open": 2296.18,
-                    "high": 2297.09,
-                    "low": 2287.88,
-                    "close": 2295.98,
-                    "volume": 18517.2817
-                },
-                {
-                    "timestamp": 1778184000000,
-                    "open": 2295.98,
-                    "high": 2302.57,
-                    "low": 2287.94,
-                    "close": 2289.1,
-                    "volume": 34000.8584
-                },
-                {
-                    "timestamp": 1778187600000,
-                    "open": 2289.1,
-                    "high": 2290.47,
-                    "low": 2284.04,
-                    "close": 2284.98,
-                    "volume": 1690.6281
-                }
-            ],
-            "engine": {
-                "features": {
-                    "trend": {
-                        "trend_direction": "bearish",
-                        "trend_strength": "weak",
-                        "structure_state": "bearish",
-                        "is_trending": true,
-                        "bias": "short",
-                        "structure_score": -8,
-                        "trend_phase": "weak_trend"
-                    },
-                    "momentum": {
-                        "momentum_state": "neutral",
-                        "momentum_strength": "strong",
-                        "entry_timing": "neutral",
-                        "continuation": false,
-                        "rsi": null
-                    },
-                    "volatility": {
-                        "volatility_level": "medium",
-                        "std_dev": 0.003378761659853865,
-                        "avg_range": 16.05
-                    },
-                    "price": {
-                        "last_open": 2289.1,
-                        "last_close": 2284.98,
-                        "last_high": 2290.47,
-                        "last_low": 2284.04,
-                        "range": 6.429999999999836,
-                        "body": 4.119999999999891,
-                        "direction": "bearish"
-                    }
-                },
-                "debug": {
-                    "returns": [
-                        -0.008011110110972544,
-                        -0.006628296864737869,
-                        -0.001809498125255485,
-                        -0.0013116497154461867,
-                        0.0033990601315117587,
-                        -0.001482866585493066,
-                        -9.14558464238745e-05,
-                        -0.002996541781722885,
-                        -0.001799833995893535
+                    "invalidations": [
+                        "structure break against position",
+                        "opposite pressure expansion",
+                        "volatility spike against setup"
                     ],
-                    "trend_raw": {
-                        "direction": "bearish",
-                        "structure_state": "bearish",
-                        "strength": "weak",
-                        "ema_trend": null,
-                        "higher_highs": 3,
-                        "higher_lows": 2,
-                        "lower_highs": 6,
-                        "lower_lows": 7
-                    },
-                    "momentum_raw": {
-                        "momentum": "neutral",
-                        "rsi": null,
-                        "momentum_value": -14.61999999999989,
-                        "macd_state": null
-                    },
-                    "volatility_raw": {
-                        "std_dev": 0.003378761659853865,
-                        "avg_range": 16.05,
-                        "volatility_level": "normal"
-                    }
-                }
-            },
-            "regime": {
-                "trend_phase": "weak_trend",
-                "market_regime": "weak_trend",
-                "pressure": "neutral",
-                "quality": "low"
-            },
-            "opportunities": [
-                {
-                    "type": "micro_range",
-                    "direction": "neutral",
-                    "valid": true,
-                    "strength": "medium"
-                }
-            ],
-            "signals": [
-                {
-                    "type": "micro_range",
-                    "bias": "neutral",
-                    "confidence": 0.26,
-                    "context": {
+                    "meta": {
                         "regime": "weak_trend",
-                        "pressure": "neutral",
-                        "trend_alignment": false
-                    },
-                    "invalidations": {
-                        "structure_break": false,
-                        "opposite_pressure": "no_pressure"
-                    },
-                    "execution_hints": {
-                        "aggression": "low",
-                        "entry_style": "limit_reversion",
-                        "avoid": [
-                            "trend_conflict",
-                            "weak_edge"
-                        ]
+                        "signal_type": "micro_range",
+                        "timestamp": 0,
+                        "setup_confirmed": true,
+                        "trade_confirmed": false
                     }
-                }
-            ],
-            "confirmation": {
-                "confirmed": true,
-                "signal_state": "valid",
-                "confidence_score": 0.534,
-                "execution": {
-                    "permission": "allowed",
-                    "priority": "medium",
-                    "mode": "passive"
-                },
-                "position_bias": "none",
-                "quality": {
-                    "tier": "B",
-                    "label": "solid"
-                },
-                "edge_components": {
-                    "trend_alignment": 0.47,
-                    "momentum_confirmation": 0.5,
-                    "regime_fit": 0.7,
-                    "volatility_suitability": 0.6,
-                    "signal_integrity": 0.41
-                },
-                "risk": {
-                    "size_multiplier": 0.75,
-                    "max_risk_pct": 0.75,
-                    "aggression_level": "medium"
-                },
-                "trade_management": {
-                    "entry_style": "limit",
-                    "time_validity": "short",
-                    "scale_in_allowed": true
-                },
-                "reasons": [
-                    "weak trend reduces conviction",
-                    "momentum not confirming direction",
-                    "limited expansion regime",
-                    "signal confidence not strong"
-                ],
-                "invalidations": [
-                    "structure break against position",
-                    "opposite pressure expansion",
-                    "volatility spike against setup"
-                ],
-                "meta": {
-                    "regime": "weak_trend",
-                    "signal_type": "micro_range",
-                    "timestamp": 0
-                }
-            },
-            "strategy": {
-                "valid": false,
-                "strategy": {
-                    "entry_type": "none",
-                    "entry_logic": "none",
-                    "entry_zone": "none",
-                    "confirmation": false,
-                    "timeframe_alignment": false,
-                    "aggressiveness": "undefined",
-                    "direction": "neutral"
-                },
-                "execution_profile": {
-                    "mode": "passive",
-                    "priority": "medium"
-                },
-                "context": {
-                    "regime": "weak_trend",
-                    "signal_type": "micro_range",
-                    "timestamp": 0
-                },
-                "reasons": [
-                    "no deterministic mapping found"
-                ]
-            }
-        },
-        "2026-05-07/21:06:54": {
-            "raw_data": [
-                {
-                    "timestamp": 1778173200000,
-                    "open": 2291.81,
-                    "high": 2301.25,
-                    "low": 2280.1,
-                    "close": 2299.6,
-                    "volume": 28378.658,
-                    "close_time": 1778176799999,
-                    "quote_volume": 65018919.258456,
-                    "trades": 194136,
-                    "taker_buy_base": 10115.5126,
-                    "taker_buy_quote": 23176320.29893
-                },
-                {
-                    "timestamp": 1778176800000,
-                    "open": 2299.61,
-                    "high": 2304.0,
-                    "low": 2291.27,
-                    "close": 2296.19,
-                    "volume": 23860.3486,
-                    "close_time": 1778180399999,
-                    "quote_volume": 54872377.831571,
-                    "trades": 164723,
-                    "taker_buy_base": 9549.643,
-                    "taker_buy_quote": 21959350.336886
-                },
-                {
-                    "timestamp": 1778180400000,
-                    "open": 2296.18,
-                    "high": 2297.09,
-                    "low": 2287.88,
-                    "close": 2295.98,
-                    "volume": 18517.2817,
-                    "close_time": 1778183999999,
-                    "quote_volume": 42462451.236357,
-                    "trades": 137463,
-                    "taker_buy_base": 7056.8957,
-                    "taker_buy_quote": 16181693.125411
-                },
-                {
-                    "timestamp": 1778184000000,
-                    "open": 2295.98,
-                    "high": 2302.57,
-                    "low": 2287.94,
-                    "close": 2289.1,
-                    "volume": 34000.8584,
-                    "close_time": 1778187599999,
-                    "quote_volume": 77970274.857188,
-                    "trades": 124019,
-                    "taker_buy_base": 8009.0598,
-                    "taker_buy_quote": 18367518.97857
-                },
-                {
-                    "timestamp": 1778187600000,
-                    "open": 2289.1,
-                    "high": 2294.29,
-                    "low": 2281.29,
-                    "close": 2287.68,
-                    "volume": 12799.0863,
-                    "close_time": 1778191199999,
-                    "quote_volume": 29297191.050552,
-                    "trades": 81792,
-                    "taker_buy_base": 4200.0812,
-                    "taker_buy_quote": 9616145.807321
-                },
-                {
-                    "timestamp": 1778191200000,
-                    "open": 2287.68,
-                    "high": 2290.24,
-                    "low": 2281.04,
-                    "close": 2287.03,
-                    "volume": 16424.3429,
-                    "close_time": 1778194799999,
-                    "quote_volume": 37539429.39639,
-                    "trades": 123660,
-                    "taker_buy_base": 6111.601,
-                    "taker_buy_quote": 13967354.762296
-                },
-                {
-                    "timestamp": 1778194800000,
-                    "open": 2287.03,
-                    "high": 2293.24,
-                    "low": 2286.11,
-                    "close": 2291.06,
-                    "volume": 8871.107,
-                    "close_time": 1778198399999,
-                    "quote_volume": 20313256.078782,
-                    "trades": 58340,
-                    "taker_buy_base": 3297.6932,
-                    "taker_buy_quote": 7551169.344746
-                },
-                {
-                    "timestamp": 1778198400000,
-                    "open": 2291.06,
-                    "high": 2294.28,
-                    "low": 2283.66,
-                    "close": 2286.83,
-                    "volume": 9997.2781,
-                    "close_time": 1778201999999,
-                    "quote_volume": 22894296.055707,
-                    "trades": 73746,
-                    "taker_buy_base": 3533.563,
-                    "taker_buy_quote": 8091862.461339
-                },
-                {
-                    "timestamp": 1778202000000,
-                    "open": 2286.83,
-                    "high": 2289.31,
-                    "low": 2280.28,
-                    "close": 2285.06,
-                    "volume": 10079.1981,
-                    "close_time": 1778205599999,
-                    "quote_volume": 23029855.69388,
-                    "trades": 67196,
-                    "taker_buy_base": 3681.0688,
-                    "taker_buy_quote": 8410690.410648
-                },
-                {
-                    "timestamp": 1778205600000,
-                    "open": 2285.06,
-                    "high": 2285.71,
-                    "low": 2273.0,
-                    "close": 2278.1,
-                    "volume": 6034.5397,
-                    "close_time": 1778209199999,
-                    "quote_volume": 13747738.372779,
-                    "trades": 34451,
-                    "taker_buy_base": 2544.2694,
-                    "taker_buy_quote": 5795689.10373
-                }
-            ],
-            "candles": [
-                {
-                    "timestamp": 1778173200000,
-                    "open": 2291.81,
-                    "high": 2301.25,
-                    "low": 2280.1,
-                    "close": 2299.6,
-                    "volume": 28378.658
-                },
-                {
-                    "timestamp": 1778176800000,
-                    "open": 2299.61,
-                    "high": 2304.0,
-                    "low": 2291.27,
-                    "close": 2296.19,
-                    "volume": 23860.3486
-                },
-                {
-                    "timestamp": 1778180400000,
-                    "open": 2296.18,
-                    "high": 2297.09,
-                    "low": 2287.88,
-                    "close": 2295.98,
-                    "volume": 18517.2817
-                },
-                {
-                    "timestamp": 1778184000000,
-                    "open": 2295.98,
-                    "high": 2302.57,
-                    "low": 2287.94,
-                    "close": 2289.1,
-                    "volume": 34000.8584
-                },
-                {
-                    "timestamp": 1778187600000,
-                    "open": 2289.1,
-                    "high": 2294.29,
-                    "low": 2281.29,
-                    "close": 2287.68,
-                    "volume": 12799.0863
-                },
-                {
-                    "timestamp": 1778191200000,
-                    "open": 2287.68,
-                    "high": 2290.24,
-                    "low": 2281.04,
-                    "close": 2287.03,
-                    "volume": 16424.3429
-                },
-                {
-                    "timestamp": 1778194800000,
-                    "open": 2287.03,
-                    "high": 2293.24,
-                    "low": 2286.11,
-                    "close": 2291.06,
-                    "volume": 8871.107
-                },
-                {
-                    "timestamp": 1778198400000,
-                    "open": 2291.06,
-                    "high": 2294.28,
-                    "low": 2283.66,
-                    "close": 2286.83,
-                    "volume": 9997.2781
-                },
-                {
-                    "timestamp": 1778202000000,
-                    "open": 2286.83,
-                    "high": 2289.31,
-                    "low": 2280.28,
-                    "close": 2285.06,
-                    "volume": 10079.1981
-                },
-                {
-                    "timestamp": 1778205600000,
-                    "open": 2285.06,
-                    "high": 2285.71,
-                    "low": 2273.0,
-                    "close": 2278.1,
-                    "volume": 6034.5397
-                }
-            ],
-            "engine": {
-                "features": {
-                    "trend": {
-                        "trend_direction": "bearish",
-                        "trend_strength": "weak",
-                        "structure_state": "bearish",
-                        "is_trending": false,
-                        "bias": "short",
-                        "structure_score": -4,
-                        "trend_phase": "weak_trend"
-                    },
-                    "momentum": {
-                        "momentum_state": "neutral",
-                        "momentum_strength": "moderate",
-                        "entry_timing": "neutral",
-                        "continuation": false,
-                        "rsi": null
-                    },
-                    "volatility": {
-                        "volatility_level": "low",
-                        "std_dev": 0.001511107867822323,
-                        "avg_range": 11.940999999999985
-                    },
-                    "price": {
-                        "last_open": 2285.06,
-                        "last_close": 2278.1,
-                        "last_high": 2285.71,
-                        "last_low": 2273.0,
-                        "range": 12.710000000000036,
-                        "body": 6.960000000000036,
-                        "direction": "bearish"
-                    }
-                },
-                "debug": {
-                    "returns": [
-                        -0.001482866585493066,
-                        -9.14558464238745e-05,
-                        -0.002996541781722885,
-                        -0.0006203311345070433,
-                        -0.000284130647642868,
-                        0.001762110685036814,
-                        -0.0018463069496215806,
-                        -0.0007739971926203443,
-                        -0.0030458718808259026
-                    ],
-                    "trend_raw": {
-                        "direction": "bearish",
-                        "structure_state": "bearish",
-                        "strength": "weak",
-                        "ema_trend": null,
-                        "higher_highs": 4,
-                        "higher_lows": 3,
-                        "lower_highs": 5,
-                        "lower_lows": 6
-                    },
-                    "momentum_raw": {
-                        "momentum": "neutral",
-                        "rsi": null,
-                        "momentum_value": -8.930000000000291,
-                        "macd_state": null
-                    },
-                    "volatility_raw": {
-                        "std_dev": 0.001511107867822323,
-                        "avg_range": 11.940999999999985,
-                        "volatility_level": "normal"
-                    }
-                }
-            },
-            "regime": {
-                "trend_phase": "weak_trend",
-                "market_regime": "weak_trend",
-                "pressure": "neutral",
-                "quality": "low"
-            },
-            "opportunities": [
-                {
-                    "type": "micro_range",
-                    "direction": "neutral",
-                    "valid": true,
-                    "strength": "medium"
-                }
-            ],
-            "signals": [
-                {
-                    "type": "micro_range",
-                    "bias": "neutral",
-                    "confidence": 0.23,
-                    "context": {
-                        "regime": "weak_trend",
-                        "pressure": "neutral",
-                        "trend_alignment": false
-                    },
-                    "invalidations": {
-                        "structure_break": false,
-                        "opposite_pressure": "no_pressure"
-                    },
-                    "execution_hints": {
-                        "aggression": "low",
-                        "entry_style": "limit_reversion",
-                        "avoid": [
-                            "low_momentum",
-                            "trend_conflict",
-                            "weak_edge"
-                        ]
-                    }
-                }
-            ],
-            "confirmation": {
-                "confirmed": false,
-                "signal_state": "setup_valid",
-                "confidence_score": 0.524,
-                "execution": {
-                    "permission": "reduced",
-                    "priority": "low",
-                    "mode": "passive"
-                },
-                "position_bias": "none",
-                "quality": {
-                    "tier": "B",
-                    "label": "solid"
-                },
-                "edge_components": {
-                    "trend_alignment": 0.47,
-                    "momentum_confirmation": 0.5,
-                    "regime_fit": 0.7,
-                    "volatility_suitability": 0.55,
-                    "signal_integrity": 0.38
-                },
-                "risk": {
-                    "size_multiplier": 0.75,
-                    "max_risk_pct": 0.75,
-                    "aggression_level": "medium"
-                },
-                "trade_management": {
-                    "entry_style": "limit",
-                    "time_validity": "short",
-                    "scale_in_allowed": false
-                },
-                "reasons": [
-                    "weak trend reduces conviction",
-                    "momentum not confirming direction",
-                    "limited expansion regime",
-                    "signal confidence not strong"
-                ],
-                "invalidations": [
-                    "structure break against position",
-                    "opposite pressure expansion",
-                    "volatility spike against setup"
-                ],
-                "meta": {
-                    "regime": "weak_trend",
-                    "signal_type": "micro_range",
-                    "timestamp": 0,
-                    "setup_confirmed": true,
-                    "trade_confirmed": false
                 }
             },
             "strategy": {
@@ -1569,394 +399,99 @@
                     "timestamp": 0
                 },
                 "reasons": [
-                    "no deterministic mapping found"
+                    "no deterministic mapping found for micro_range/neutral/weak_trend"
                 ]
-            }
-        },
-        "2026-05-08/21:50:51": {
-            "raw_data": [
-                {
-                    "timestamp": 1778259600000,
-                    "open": 2289.93,
-                    "high": 2315.63,
-                    "low": 2289.39,
-                    "close": 2304.86,
-                    "volume": 23598.5736,
-                    "close_time": 1778263199999,
-                    "quote_volume": 54386695.884674,
-                    "trades": 180787,
-                    "taker_buy_base": 11210.8339,
-                    "taker_buy_quote": 25837177.123357
-                },
-                {
-                    "timestamp": 1778263200000,
-                    "open": 2304.87,
-                    "high": 2321.22,
-                    "low": 2304.87,
-                    "close": 2313.49,
-                    "volume": 19654.0122,
-                    "close_time": 1778266799999,
-                    "quote_volume": 45508868.190232,
-                    "trades": 123049,
-                    "taker_buy_base": 9308.985,
-                    "taker_buy_quote": 21557292.453528
-                },
-                {
-                    "timestamp": 1778266800000,
-                    "open": 2313.49,
-                    "high": 2320.36,
-                    "low": 2312.48,
-                    "close": 2316.05,
-                    "volume": 19777.938,
-                    "close_time": 1778270399999,
-                    "quote_volume": 45811970.441366,
-                    "trades": 90240,
-                    "taker_buy_base": 6109.3893,
-                    "taker_buy_quote": 14150222.495039
-                },
-                {
-                    "timestamp": 1778270400000,
-                    "open": 2316.06,
-                    "high": 2317.0,
-                    "low": 2305.36,
-                    "close": 2306.65,
-                    "volume": 26417.6209,
-                    "close_time": 1778273999999,
-                    "quote_volume": 61048867.47632,
-                    "trades": 73232,
-                    "taker_buy_base": 4837.0026,
-                    "taker_buy_quote": 11178334.141022
-                },
-                {
-                    "timestamp": 1778274000000,
-                    "open": 2306.64,
-                    "high": 2314.94,
-                    "low": 2304.21,
-                    "close": 2314.63,
-                    "volume": 14078.5061,
-                    "close_time": 1778277599999,
-                    "quote_volume": 32519324.932045,
-                    "trades": 63932,
-                    "taker_buy_base": 4076.2867,
-                    "taker_buy_quote": 9415396.369065
-                },
-                {
-                    "timestamp": 1778277600000,
-                    "open": 2314.62,
-                    "high": 2319.15,
-                    "low": 2310.26,
-                    "close": 2310.98,
-                    "volume": 12732.9721,
-                    "close_time": 1778281199999,
-                    "quote_volume": 29470879.39388,
-                    "trades": 64876,
-                    "taker_buy_base": 3313.5448,
-                    "taker_buy_quote": 7670897.614056
-                },
-                {
-                    "timestamp": 1778281200000,
-                    "open": 2310.98,
-                    "high": 2310.98,
-                    "low": 2303.19,
-                    "close": 2307.06,
-                    "volume": 12138.5681,
-                    "close_time": 1778284799999,
-                    "quote_volume": 28003945.425697,
-                    "trades": 48132,
-                    "taker_buy_base": 2377.0112,
-                    "taker_buy_quote": 5483081.967037
-                },
-                {
-                    "timestamp": 1778284800000,
-                    "open": 2307.07,
-                    "high": 2312.03,
-                    "low": 2304.19,
-                    "close": 2308.55,
-                    "volume": 11551.954,
-                    "close_time": 1778288399999,
-                    "quote_volume": 26669474.303596,
-                    "trades": 50114,
-                    "taker_buy_base": 3295.7544,
-                    "taker_buy_quote": 7608942.705963
-                },
-                {
-                    "timestamp": 1778288400000,
-                    "open": 2308.55,
-                    "high": 2318.45,
-                    "low": 2308.23,
-                    "close": 2314.22,
-                    "volume": 10857.7767,
-                    "close_time": 1778291999999,
-                    "quote_volume": 25117545.608498,
-                    "trades": 55141,
-                    "taker_buy_base": 4204.8466,
-                    "taker_buy_quote": 9729781.144482
-                },
-                {
-                    "timestamp": 1778292000000,
-                    "open": 2314.23,
-                    "high": 2320.3,
-                    "low": 2313.8,
-                    "close": 2316.61,
-                    "volume": 8852.815,
-                    "close_time": 1778295599999,
-                    "quote_volume": 20511310.555451,
-                    "trades": 43590,
-                    "taker_buy_base": 3446.2107,
-                    "taker_buy_quote": 7985918.956803
-                }
-            ],
-            "candles": [
-                {
-                    "timestamp": 1778259600000,
-                    "open": 2289.93,
-                    "high": 2315.63,
-                    "low": 2289.39,
-                    "close": 2304.86,
-                    "volume": 23598.5736
-                },
-                {
-                    "timestamp": 1778263200000,
-                    "open": 2304.87,
-                    "high": 2321.22,
-                    "low": 2304.87,
-                    "close": 2313.49,
-                    "volume": 19654.0122
-                },
-                {
-                    "timestamp": 1778266800000,
-                    "open": 2313.49,
-                    "high": 2320.36,
-                    "low": 2312.48,
-                    "close": 2316.05,
-                    "volume": 19777.938
-                },
-                {
-                    "timestamp": 1778270400000,
-                    "open": 2316.06,
-                    "high": 2317.0,
-                    "low": 2305.36,
-                    "close": 2306.65,
-                    "volume": 26417.6209
-                },
-                {
-                    "timestamp": 1778274000000,
-                    "open": 2306.64,
-                    "high": 2314.94,
-                    "low": 2304.21,
-                    "close": 2314.63,
-                    "volume": 14078.5061
-                },
-                {
-                    "timestamp": 1778277600000,
-                    "open": 2314.62,
-                    "high": 2319.15,
-                    "low": 2310.26,
-                    "close": 2310.98,
-                    "volume": 12732.9721
-                },
-                {
-                    "timestamp": 1778281200000,
-                    "open": 2310.98,
-                    "high": 2310.98,
-                    "low": 2303.19,
-                    "close": 2307.06,
-                    "volume": 12138.5681
-                },
-                {
-                    "timestamp": 1778284800000,
-                    "open": 2307.07,
-                    "high": 2312.03,
-                    "low": 2304.19,
-                    "close": 2308.55,
-                    "volume": 11551.954
-                },
-                {
-                    "timestamp": 1778288400000,
-                    "open": 2308.55,
-                    "high": 2318.45,
-                    "low": 2308.23,
-                    "close": 2314.22,
-                    "volume": 10857.7767
-                },
-                {
-                    "timestamp": 1778292000000,
-                    "open": 2314.23,
-                    "high": 2320.3,
-                    "low": 2313.8,
-                    "close": 2316.61,
-                    "volume": 8852.815
-                }
-            ],
-            "engine": {
-                "features": {
-                    "trend": {
-                        "trend_direction": "bullish",
-                        "trend_strength": "weak",
-                        "structure_state": "bullish",
-                        "is_trending": false,
-                        "bias": "long",
-                        "structure_score": 4,
-                        "trend_phase": "weak_trend"
-                    },
-                    "momentum": {
-                        "momentum_state": "neutral",
-                        "momentum_strength": "moderate",
-                        "entry_timing": "neutral",
-                        "continuation": false,
-                        "rsi": null
-                    },
-                    "volatility": {
-                        "volatility_level": "medium",
-                        "std_dev": 0.0025898845594497224,
-                        "avg_range": 11.407999999999992
-                    },
-                    "price": {
-                        "last_open": 2314.23,
-                        "last_close": 2316.61,
-                        "last_high": 2320.3,
-                        "last_low": 2313.8,
-                        "range": 6.5,
-                        "body": 2.380000000000109,
-                        "direction": "bullish"
-                    }
-                },
-                "debug": {
-                    "returns": [
-                        0.0037442621243805063,
-                        0.0011065533025863092,
-                        -0.004058634312730766,
-                        0.003459562569093715,
-                        -0.0015769259017640361,
-                        -0.0016962500757254813,
-                        0.0006458436278207921,
-                        0.0024560871542741625,
-                        0.0010327453742515092
-                    ],
-                    "trend_raw": {
-                        "direction": "bullish",
-                        "structure_state": "bullish",
-                        "strength": "weak",
-                        "ema_trend": null,
-                        "higher_highs": 5,
-                        "higher_lows": 6,
-                        "lower_highs": 4,
-                        "lower_lows": 3
-                    },
-                    "momentum_raw": {
-                        "momentum": "neutral",
-                        "rsi": null,
-                        "momentum_value": 5.630000000000109,
-                        "macd_state": null
-                    },
-                    "volatility_raw": {
-                        "std_dev": 0.0025898845594497224,
-                        "avg_range": 11.407999999999992,
-                        "volatility_level": "normal"
-                    }
-                }
             },
-            "regime": {
-                "trend_phase": "weak_trend",
-                "market_regime": "weak_trend",
-                "pressure": "bullish",
-                "quality": "medium"
-            },
-            "opportunities": [
-                {
-                    "type": "micro_range",
-                    "direction": "long",
-                    "valid": true,
-                    "strength": "medium"
-                }
-            ],
-            "signals": [
-                {
-                    "type": "micro_range",
-                    "bias": "long",
-                    "confidence": 0.57,
+            "adaptiveContext": {
+                "strategy": {
+                    "valid": false,
+                    "strategy": {
+                        "entry_type": "none",
+                        "entry_logic": "none",
+                        "entry_zone": "none",
+                        "confirmation": false,
+                        "timeframe_alignment": false,
+                        "aggressiveness": "undefined",
+                        "direction": "neutral"
+                    },
+                    "execution_profile": {
+                        "mode": "passive",
+                        "priority": "low"
+                    },
                     "context": {
                         "regime": "weak_trend",
-                        "pressure": "bullish",
-                        "trend_alignment": true
+                        "signal_type": "micro_range",
+                        "timestamp": 0
                     },
-                    "invalidations": {
-                        "structure_break": false,
-                        "opposite_pressure": "bullish_dominance"
-                    },
-                    "execution_hints": {
-                        "aggression": "low",
-                        "entry_style": "limit_reversion",
-                        "avoid": [
-                            "weak_edge"
-                        ]
-                    }
-                }
-            ],
-            "confirmation": {
-                "confirmed": true,
-                "signal_state": "setup_valid",
-                "confidence_score": 0.584,
-                "execution": {
-                    "permission": "allowed",
-                    "priority": "medium",
-                    "mode": "passive"
-                },
-                "position_bias": "long",
-                "quality": {
-                    "tier": "B",
-                    "label": "solid"
-                },
-                "edge_components": {
-                    "trend_alignment": 0.47,
-                    "momentum_confirmation": 0.5,
-                    "regime_fit": 0.7,
-                    "volatility_suitability": 0.6,
-                    "signal_integrity": 0.66
+                    "reasons": [
+                        "no deterministic mapping found for micro_range/neutral/weak_trend"
+                    ]
                 },
                 "risk": {
-                    "size_multiplier": 0.75,
-                    "max_risk_pct": 0.75,
-                    "aggression_level": "medium"
+                    "valid": false,
+                    "position": {
+                        "size": 0.0,
+                        "size_multiplier": 0.0
+                    },
+                    "risk_limits": {
+                        "max_risk_pct": 0.0,
+                        "estimated_loss": 0.0
+                    },
+                    "protection": {
+                        "stop_loss_type": "none",
+                        "stop_distance": 0.0,
+                        "atr_based": false
+                    },
+                    "execution_profile": {
+                        "mode": "skip",
+                        "priority": "low",
+                        "risk_profile": "conservative"
+                    },
+                    "context": {
+                        "regime": "weak_trend",
+                        "volatility": "high",
+                        "timestamp": 0
+                    },
+                    "reasons": [
+                        "trade blocked by confirmation"
+                    ]
                 },
-                "trade_management": {
-                    "entry_style": "limit",
-                    "time_validity": "short",
-                    "scale_in_allowed": true
-                },
-                "reasons": [
-                    "weak trend reduces conviction",
-                    "momentum not confirming direction",
-                    "limited expansion regime",
-                    "signal confidence not strong"
-                ],
-                "invalidations": [
-                    "structure break against position",
-                    "opposite pressure expansion",
-                    "volatility spike against setup"
-                ],
-                "meta": {
-                    "regime": "weak_trend",
-                    "signal_type": "micro_range",
-                    "timestamp": 0,
-                    "setup_confirmed": true,
-                    "trade_confirmed": true
+                "trade_plan": {
+                    "valid": false,
+                    "meta": {
+                        "pipeline_stage": "TRADE_PLANNER",
+                        "version": "1.0",
+                        "generated_by": "strategy_v3"
+                    },
+                    "trade": null,
+                    "context": {
+                        "regime": "weak_trend",
+                        "signal_type": "micro_range",
+                        "strategy_logic": "none"
+                    },
+                    "reasons": [
+                        "trade not confirmed"
+                    ]
                 }
             },
-            "strategy": {
+            "strategyContext": {
                 "valid": true,
                 "strategy": {
                     "entry_type": "limit",
-                    "entry_logic": "pullback_reversion",
-                    "entry_zone": "local_support",
+                    "entry_logic": "mean_reversion",
+                    "entry_zone": "range_extreme",
                     "confirmation": true,
                     "timeframe_alignment": false,
-                    "aggressiveness": "medium",
-                    "direction": "long"
+                    "aggressiveness": "low",
+                    "direction": "short"
                 },
                 "execution_profile": {
                     "mode": "passive",
                     "priority": "medium"
+                },
+                "risk": {
+                    "modifier": 1.0,
+                    "size": 0.25
                 },
                 "context": {
                     "regime": "weak_trend",
@@ -1964,12 +499,841 @@
                     "timestamp": 0
                 },
                 "reasons": [
+                    "strategy=micro_range_reversion",
                     "entry_type=limit",
-                    "entry_logic=pullback_reversion",
-                    "entry_zone=local_support",
-                    "direction=long",
-                    "aggressiveness=medium"
+                    "entry_logic=mean_reversion",
+                    "entry_zone=range_extreme",
+                    "direction=short",
+                    "range_position=0.83",
+                    "aggressiveness=low"
                 ]
+            },
+            "tradePlan_context": {
+                "valid": true,
+                "meta": {
+                    "pipeline_stage": "TRADE_PLANNER",
+                    "version": "1.0",
+                    "generated_by": "strategy_v3"
+                },
+                "trade": {
+                    "side": "neutral",
+                    "entry": {
+                        "type": "limit",
+                        "price": 2266.78,
+                        "zone_low": 2263.82,
+                        "zone_high": 2269.74
+                    },
+                    "stop_loss": {
+                        "price": 2290.46,
+                        "distance_pct": 1.04,
+                        "atr_multiple": 1.2
+                    },
+                    "take_profit": {
+                        "tp1": 2243.1,
+                        "tp2": 2224.16,
+                        "tp3": 2207.58
+                    },
+                    "risk_reward": {
+                        "tp1_rr": 1.0,
+                        "tp2_rr": 1.8,
+                        "tp3_rr": 2.5
+                    },
+                    "position": {
+                        "size": 0.75,
+                        "leverage": 1
+                    },
+                    "risk": {
+                        "risk_pct": 0.75,
+                        "max_loss": 0.33749999999999997
+                    },
+                    "execution": {
+                        "ready": true,
+                        "order_type": "limit",
+                        "time_in_force": "GTC",
+                        "reduce_only": false,
+                        "slippage_tolerance": 0.1
+                    }
+                },
+                "context": {
+                    "regime": "weak_trend",
+                    "signal_type": "micro_range",
+                    "strategy_logic": "mean_reversion"
+                },
+                "reasons": [
+                    "controlled weak trend environment",
+                    "acceptable RR profile"
+                ]
+            },
+            "proyeccion": {
+                "proyeccion_alcista": {
+                    "valid": true,
+                    "time_estimation": {
+                        "model": "dynamic_velocity_model",
+                        "market_dynamics": {
+                            "real_velocity": 12.871,
+                            "drift": -0.002611,
+                            "realized_volatility": 0.006887,
+                            "efficiency_ratio": 0.4382,
+                            "trend_score": 0.4,
+                            "momentum_score": 0.5,
+                            "volatility_score": 1.0,
+                            "expected_velocity": 1.128,
+                            "friction_factor": 1.5
+                        },
+                        "targets": {
+                            "tp1": {
+                                "price": 2243.1,
+                                "distance": 23.68,
+                                "estimated_candles": 31.49,
+                                "estimated_hours": 31.49,
+                                "confidence": "low",
+                                "hit_probability": 0.05
+                            },
+                            "tp2": {
+                                "price": 2224.16,
+                                "distance": 42.62,
+                                "estimated_candles": 56.68,
+                                "estimated_hours": 56.68,
+                                "confidence": "low",
+                                "hit_probability": 0.05
+                            },
+                            "tp3": {
+                                "price": 2207.58,
+                                "distance": 59.2,
+                                "estimated_candles": 78.72,
+                                "estimated_hours": 78.72,
+                                "confidence": "low",
+                                "hit_probability": 0.05
+                            }
+                        },
+                        "meta": {
+                            "regime": "weak_trend",
+                            "trend_strength": "weak",
+                            "momentum": "neutral",
+                            "volatility": "high",
+                            "timeframe": "1h"
+                        }
+                    }
+                },
+                "proyeccion_bajista": {
+                    "valid": true,
+                    "time_estimation": {
+                        "model": "dynamic_velocity_model_bearish",
+                        "market_dynamics": {
+                            "real_velocity": 12.871,
+                            "drift": -0.002611,
+                            "realized_volatility": 0.006887,
+                            "efficiency_ratio": 0.4382,
+                            "trend_score": 0.4,
+                            "momentum_score": 0.5,
+                            "volatility_score": 1.0,
+                            "expected_velocity": 1.128,
+                            "friction_factor": 1.5
+                        },
+                        "targets": {
+                            "tp1": {
+                                "price": 2243.1,
+                                "distance": 23.68,
+                                "estimated_candles": 31.49,
+                                "estimated_hours": 31.49,
+                                "confidence": "low",
+                                "hit_probability": 0.07
+                            },
+                            "tp2": {
+                                "price": 2224.16,
+                                "distance": 42.62,
+                                "estimated_candles": 56.68,
+                                "estimated_hours": 56.68,
+                                "confidence": "low",
+                                "hit_probability": 0.05
+                            },
+                            "tp3": {
+                                "price": 2207.58,
+                                "distance": 59.2,
+                                "estimated_candles": 78.72,
+                                "estimated_hours": 78.72,
+                                "confidence": "low",
+                                "hit_probability": 0.05
+                            }
+                        },
+                        "meta": {
+                            "regime": "weak_trend",
+                            "trend_strength": "weak",
+                            "momentum": "neutral",
+                            "volatility": "high",
+                            "timeframe": "1h",
+                            "direction": "short"
+                        }
+                    }
+                }
+            }
+        },
+        "2026-05-13/13:39:42": {
+            "datalayer": {
+                "raw_data": [
+                    {
+                        "timestamp": 1778662800000,
+                        "open": 2316.65,
+                        "high": 2323.36,
+                        "low": 2314.45,
+                        "close": 2321.19,
+                        "volume": 12175.5618,
+                        "close_time": 1778666399999,
+                        "quote_volume": 28246576.721551,
+                        "trades": 77088,
+                        "taker_buy_base": 6711.874,
+                        "taker_buy_quote": 15570693.618074
+                    },
+                    {
+                        "timestamp": 1778666400000,
+                        "open": 2321.18,
+                        "high": 2321.6,
+                        "low": 2305.55,
+                        "close": 2308.46,
+                        "volume": 7214.562,
+                        "close_time": 1778669999999,
+                        "quote_volume": 16681091.635877,
+                        "trades": 69442,
+                        "taker_buy_base": 3130.0189,
+                        "taker_buy_quote": 7235661.053149
+                    },
+                    {
+                        "timestamp": 1778670000000,
+                        "open": 2308.46,
+                        "high": 2308.91,
+                        "low": 2299.0,
+                        "close": 2301.82,
+                        "volume": 8961.8603,
+                        "close_time": 1778673599999,
+                        "quote_volume": 20639693.837158,
+                        "trades": 99884,
+                        "taker_buy_base": 5217.3486,
+                        "taker_buy_quote": 12017184.429599
+                    },
+                    {
+                        "timestamp": 1778673600000,
+                        "open": 2301.83,
+                        "high": 2307.54,
+                        "low": 2270.01,
+                        "close": 2284.35,
+                        "volume": 21804.2465,
+                        "close_time": 1778677199999,
+                        "quote_volume": 49851597.662764,
+                        "trades": 220286,
+                        "taker_buy_base": 9550.025,
+                        "taker_buy_quote": 21852190.433725
+                    },
+                    {
+                        "timestamp": 1778677200000,
+                        "open": 2284.35,
+                        "high": 2288.31,
+                        "low": 2258.51,
+                        "close": 2262.8,
+                        "volume": 25468.6809,
+                        "close_time": 1778680799999,
+                        "quote_volume": 57825809.133501,
+                        "trades": 201349,
+                        "taker_buy_base": 12253.1816,
+                        "taker_buy_quote": 27824594.36893
+                    },
+                    {
+                        "timestamp": 1778680800000,
+                        "open": 2262.8,
+                        "high": 2270.97,
+                        "low": 2251.05,
+                        "close": 2267.39,
+                        "volume": 23727.9378,
+                        "close_time": 1778684399999,
+                        "quote_volume": 53692991.956532,
+                        "trades": 138193,
+                        "taker_buy_base": 12466.7113,
+                        "taker_buy_quote": 28209512.845808
+                    },
+                    {
+                        "timestamp": 1778684400000,
+                        "open": 2267.39,
+                        "high": 2270.25,
+                        "low": 2234.13,
+                        "close": 2236.49,
+                        "volume": 30418.8782,
+                        "close_time": 1778687999999,
+                        "quote_volume": 68427499.608908,
+                        "trades": 178651,
+                        "taker_buy_base": 11656.4196,
+                        "taker_buy_quote": 26228898.132038
+                    },
+                    {
+                        "timestamp": 1778688000000,
+                        "open": 2236.48,
+                        "high": 2253.35,
+                        "low": 2235.48,
+                        "close": 2250.75,
+                        "volume": 23968.6256,
+                        "close_time": 1778691599999,
+                        "quote_volume": 53793061.211313,
+                        "trades": 123038,
+                        "taker_buy_base": 12625.6994,
+                        "taker_buy_quote": 28337170.8852
+                    },
+                    {
+                        "timestamp": 1778691600000,
+                        "open": 2250.75,
+                        "high": 2261.77,
+                        "low": 2250.75,
+                        "close": 2258.31,
+                        "volume": 9344.9691,
+                        "close_time": 1778695199999,
+                        "quote_volume": 21091321.726852,
+                        "trades": 70121,
+                        "taker_buy_base": 4246.8298,
+                        "taker_buy_quote": 9583662.802681
+                    },
+                    {
+                        "timestamp": 1778695200000,
+                        "open": 2258.32,
+                        "high": 2268.49,
+                        "low": 2258.32,
+                        "close": 2265.46,
+                        "volume": 11682.4158,
+                        "close_time": 1778698799999,
+                        "quote_volume": 26451833.389729,
+                        "trades": 52122,
+                        "taker_buy_base": 6296.1443,
+                        "taker_buy_quote": 14256620.833515
+                    }
+                ],
+                "candles": [
+                    {
+                        "timestamp": 1778662800000,
+                        "open": 2316.65,
+                        "high": 2323.36,
+                        "low": 2314.45,
+                        "close": 2321.19,
+                        "volume": 12175.5618
+                    },
+                    {
+                        "timestamp": 1778666400000,
+                        "open": 2321.18,
+                        "high": 2321.6,
+                        "low": 2305.55,
+                        "close": 2308.46,
+                        "volume": 7214.562
+                    },
+                    {
+                        "timestamp": 1778670000000,
+                        "open": 2308.46,
+                        "high": 2308.91,
+                        "low": 2299.0,
+                        "close": 2301.82,
+                        "volume": 8961.8603
+                    },
+                    {
+                        "timestamp": 1778673600000,
+                        "open": 2301.83,
+                        "high": 2307.54,
+                        "low": 2270.01,
+                        "close": 2284.35,
+                        "volume": 21804.2465
+                    },
+                    {
+                        "timestamp": 1778677200000,
+                        "open": 2284.35,
+                        "high": 2288.31,
+                        "low": 2258.51,
+                        "close": 2262.8,
+                        "volume": 25468.6809
+                    },
+                    {
+                        "timestamp": 1778680800000,
+                        "open": 2262.8,
+                        "high": 2270.97,
+                        "low": 2251.05,
+                        "close": 2267.39,
+                        "volume": 23727.9378
+                    },
+                    {
+                        "timestamp": 1778684400000,
+                        "open": 2267.39,
+                        "high": 2270.25,
+                        "low": 2234.13,
+                        "close": 2236.49,
+                        "volume": 30418.8782
+                    },
+                    {
+                        "timestamp": 1778688000000,
+                        "open": 2236.48,
+                        "high": 2253.35,
+                        "low": 2235.48,
+                        "close": 2250.75,
+                        "volume": 23968.6256
+                    },
+                    {
+                        "timestamp": 1778691600000,
+                        "open": 2250.75,
+                        "high": 2261.77,
+                        "low": 2250.75,
+                        "close": 2258.31,
+                        "volume": 9344.9691
+                    },
+                    {
+                        "timestamp": 1778695200000,
+                        "open": 2258.32,
+                        "high": 2268.49,
+                        "low": 2258.32,
+                        "close": 2265.46,
+                        "volume": 11682.4158
+                    }
+                ]
+            },
+            "featureLayer": {
+                "feature": {
+                    "features": {
+                        "trend": {
+                            "trend_direction": "bearish",
+                            "trend_strength": "weak",
+                            "structure_state": "bearish",
+                            "is_trending": false,
+                            "bias": "short",
+                            "structure_score": -8,
+                            "trend_phase": "weak_trend"
+                        },
+                        "momentum": {
+                            "momentum_state": "neutral",
+                            "momentum_strength": "weak",
+                            "entry_timing": "neutral",
+                            "continuation": false,
+                            "rsi": null
+                        },
+                        "volatility": {
+                            "volatility_level": "high",
+                            "std_dev": 0.006821890694758005,
+                            "avg_range": 19.729999999999837
+                        },
+                        "price": {
+                            "last_open": 2258.32,
+                            "last_close": 2265.46,
+                            "last_high": 2268.49,
+                            "last_low": 2258.32,
+                            "range": 10.169999999999618,
+                            "body": 7.139999999999873,
+                            "direction": "bullish"
+                        }
+                    },
+                    "debug": {
+                        "returns": [
+                            -0.005484255920454602,
+                            -0.0028763764587646625,
+                            -0.0075896464536758974,
+                            -0.009433755772976877,
+                            0.0020284603146542737,
+                            -0.013628004004604453,
+                            0.006376062490778058,
+                            0.003358880373208906,
+                            0.003166084372827509
+                        ],
+                        "trend_raw": {
+                            "direction": "bearish",
+                            "structure_state": "bearish",
+                            "strength": "weak",
+                            "ema_trend": null,
+                            "higher_highs": 2,
+                            "higher_lows": 3,
+                            "lower_highs": 7,
+                            "lower_lows": 6
+                        },
+                        "momentum_raw": {
+                            "momentum": "neutral",
+                            "rsi": null,
+                            "momentum_value": -1.9299999999998363,
+                            "macd_state": null
+                        },
+                        "volatility_raw": {
+                            "std_dev": 0.006821890694758005,
+                            "avg_range": 19.729999999999837,
+                            "volatility_level": "normal"
+                        }
+                    }
+                }
+            },
+            "marketAnalysisLayer": {
+                "regime": {
+                    "trend_phase": "weak_trend",
+                    "market_regime": "weak_trend",
+                    "pressure": "neutral",
+                    "quality": "low"
+                },
+                "opportunity": [
+                    {
+                        "type": "micro_range",
+                        "direction": "neutral",
+                        "valid": true,
+                        "strength": "medium"
+                    }
+                ],
+                "signal": [
+                    {
+                        "type": "micro_range",
+                        "bias": "neutral",
+                        "confidence": 0.21,
+                        "context": {
+                            "regime": "weak_trend",
+                            "pressure": "neutral",
+                            "trend_alignment": false
+                        },
+                        "invalidations": {
+                            "structure_break": true,
+                            "opposite_pressure": "no_pressure"
+                        },
+                        "execution_hints": {
+                            "aggression": "low",
+                            "entry_style": "limit_reversion",
+                            "avoid": [
+                                "trend_conflict",
+                                "structure_instability",
+                                "weak_edge"
+                            ]
+                        }
+                    }
+                ],
+                "confirmation": {
+                    "confirmed": true,
+                    "signal_state": "setup_valid",
+                    "confidence_score": 0.521,
+                    "execution": {
+                        "permission": "reduced",
+                        "priority": "low",
+                        "mode": "passive"
+                    },
+                    "position_bias": "none",
+                    "quality": {
+                        "tier": "B",
+                        "label": "solid"
+                    },
+                    "edge_components": {
+                        "trend_alignment": 0.47,
+                        "momentum_confirmation": 0.5,
+                        "regime_fit": 0.7,
+                        "volatility_suitability": 0.55,
+                        "signal_integrity": 0.37
+                    },
+                    "risk": {
+                        "size_multiplier": 0.75,
+                        "max_risk_pct": 0.75,
+                        "aggression_level": "medium"
+                    },
+                    "trade_management": {
+                        "entry_style": "limit",
+                        "time_validity": "short",
+                        "scale_in_allowed": false
+                    },
+                    "reasons": [
+                        "weak trend reduces conviction",
+                        "momentum not confirming direction",
+                        "limited expansion regime",
+                        "signal confidence not strong"
+                    ],
+                    "invalidations": [
+                        "structure break against position",
+                        "opposite pressure expansion",
+                        "volatility spike against setup"
+                    ],
+                    "meta": {
+                        "regime": "weak_trend",
+                        "signal_type": "micro_range",
+                        "timestamp": 0,
+                        "setup_confirmed": true,
+                        "trade_confirmed": false
+                    }
+                }
+            },
+            "strategy": {
+                "valid": false,
+                "strategy": {
+                    "entry_type": "none",
+                    "entry_logic": "none",
+                    "entry_zone": "none",
+                    "confirmation": false,
+                    "timeframe_alignment": false,
+                    "aggressiveness": "undefined",
+                    "direction": "neutral"
+                },
+                "execution_profile": {
+                    "mode": "passive",
+                    "priority": "low"
+                },
+                "context": {
+                    "regime": "weak_trend",
+                    "signal_type": "micro_range",
+                    "timestamp": 0
+                },
+                "reasons": [
+                    "no deterministic mapping found for micro_range/neutral/weak_trend"
+                ]
+            },
+            "adaptiveContext": {
+                "strategy": {
+                    "valid": false,
+                    "strategy": {
+                        "entry_type": "none",
+                        "entry_logic": "none",
+                        "entry_zone": "none",
+                        "confirmation": false,
+                        "timeframe_alignment": false,
+                        "aggressiveness": "undefined",
+                        "direction": "neutral"
+                    },
+                    "execution_profile": {
+                        "mode": "passive",
+                        "priority": "low"
+                    },
+                    "context": {
+                        "regime": "weak_trend",
+                        "signal_type": "micro_range",
+                        "timestamp": 0
+                    },
+                    "reasons": [
+                        "no deterministic mapping found for micro_range/neutral/weak_trend"
+                    ]
+                },
+                "risk": {
+                    "valid": false,
+                    "position": {
+                        "size": 0.0,
+                        "size_multiplier": 0.0
+                    },
+                    "risk_limits": {
+                        "max_risk_pct": 0.0,
+                        "estimated_loss": 0.0
+                    },
+                    "protection": {
+                        "stop_loss_type": "none",
+                        "stop_distance": 0.0,
+                        "atr_based": false
+                    },
+                    "execution_profile": {
+                        "mode": "skip",
+                        "priority": "low",
+                        "risk_profile": "conservative"
+                    },
+                    "context": {
+                        "regime": "weak_trend",
+                        "volatility": "high",
+                        "timestamp": 0
+                    },
+                    "reasons": [
+                        "trade blocked by confirmation"
+                    ]
+                },
+                "trade_plan": {
+                    "valid": false,
+                    "meta": {
+                        "pipeline_stage": "TRADE_PLANNER",
+                        "version": "1.0",
+                        "generated_by": "strategy_v3"
+                    },
+                    "trade": null,
+                    "context": {
+                        "regime": "weak_trend",
+                        "signal_type": "micro_range",
+                        "strategy_logic": "none"
+                    },
+                    "reasons": [
+                        "trade not confirmed"
+                    ]
+                }
+            },
+            "strategyContext": {
+                "valid": true,
+                "strategy": {
+                    "entry_type": "limit",
+                    "entry_logic": "mean_reversion",
+                    "entry_zone": "range_extreme",
+                    "confirmation": true,
+                    "timeframe_alignment": false,
+                    "aggressiveness": "low",
+                    "direction": "short"
+                },
+                "execution_profile": {
+                    "mode": "passive",
+                    "priority": "medium"
+                },
+                "risk": {
+                    "modifier": 1.0,
+                    "size": 0.25
+                },
+                "context": {
+                    "regime": "weak_trend",
+                    "signal_type": "micro_range",
+                    "timestamp": 0
+                },
+                "reasons": [
+                    "strategy=micro_range_reversion",
+                    "entry_type=limit",
+                    "entry_logic=mean_reversion",
+                    "entry_zone=range_extreme",
+                    "direction=short",
+                    "range_position=0.7",
+                    "aggressiveness=low"
+                ]
+            },
+            "tradePlan_context": {
+                "valid": true,
+                "meta": {
+                    "pipeline_stage": "TRADE_PLANNER",
+                    "version": "1.0",
+                    "generated_by": "strategy_v3"
+                },
+                "trade": {
+                    "side": "neutral",
+                    "entry": {
+                        "type": "limit",
+                        "price": 2265.46,
+                        "zone_low": 2262.5,
+                        "zone_high": 2268.42
+                    },
+                    "stop_loss": {
+                        "price": 2289.14,
+                        "distance_pct": 1.05,
+                        "atr_multiple": 1.2
+                    },
+                    "take_profit": {
+                        "tp1": 2241.78,
+                        "tp2": 2222.84,
+                        "tp3": 2206.26
+                    },
+                    "risk_reward": {
+                        "tp1_rr": 1.0,
+                        "tp2_rr": 1.8,
+                        "tp3_rr": 2.5
+                    },
+                    "position": {
+                        "size": 0.75,
+                        "leverage": 1
+                    },
+                    "risk": {
+                        "risk_pct": 0.75,
+                        "max_loss": 0.33749999999999997
+                    },
+                    "execution": {
+                        "ready": true,
+                        "order_type": "limit",
+                        "time_in_force": "GTC",
+                        "reduce_only": false,
+                        "slippage_tolerance": 0.1
+                    }
+                },
+                "context": {
+                    "regime": "weak_trend",
+                    "signal_type": "micro_range",
+                    "strategy_logic": "mean_reversion"
+                },
+                "reasons": [
+                    "controlled weak trend environment",
+                    "acceptable RR profile"
+                ]
+            },
+            "proyeccion": {
+                "proyeccion_alcista": {
+                    "valid": true,
+                    "time_estimation": {
+                        "model": "dynamic_velocity_model",
+                        "market_dynamics": {
+                            "real_velocity": 12.739,
+                            "drift": -0.002676,
+                            "realized_volatility": 0.006822,
+                            "efficiency_ratio": 0.4536,
+                            "trend_score": 0.4,
+                            "momentum_score": 0.5,
+                            "volatility_score": 1.0,
+                            "expected_velocity": 1.1558,
+                            "friction_factor": 1.5
+                        },
+                        "targets": {
+                            "tp1": {
+                                "price": 2241.78,
+                                "distance": 23.68,
+                                "estimated_candles": 30.73,
+                                "estimated_hours": 30.73,
+                                "confidence": "low",
+                                "hit_probability": 0.06
+                            },
+                            "tp2": {
+                                "price": 2222.84,
+                                "distance": 42.62,
+                                "estimated_candles": 55.31,
+                                "estimated_hours": 55.31,
+                                "confidence": "low",
+                                "hit_probability": 0.05
+                            },
+                            "tp3": {
+                                "price": 2206.26,
+                                "distance": 59.2,
+                                "estimated_candles": 76.83,
+                                "estimated_hours": 76.83,
+                                "confidence": "low",
+                                "hit_probability": 0.05
+                            }
+                        },
+                        "meta": {
+                            "regime": "weak_trend",
+                            "trend_strength": "weak",
+                            "momentum": "neutral",
+                            "volatility": "high",
+                            "timeframe": "1h"
+                        }
+                    }
+                },
+                "proyeccion_bajista": {
+                    "valid": true,
+                    "time_estimation": {
+                        "model": "dynamic_velocity_model_bearish",
+                        "market_dynamics": {
+                            "real_velocity": 12.739,
+                            "drift": -0.002676,
+                            "realized_volatility": 0.006822,
+                            "efficiency_ratio": 0.4536,
+                            "trend_score": 0.4,
+                            "momentum_score": 0.5,
+                            "volatility_score": 1.0,
+                            "expected_velocity": 1.1558,
+                            "friction_factor": 1.5
+                        },
+                        "targets": {
+                            "tp1": {
+                                "price": 2241.78,
+                                "distance": 23.68,
+                                "estimated_candles": 30.73,
+                                "estimated_hours": 30.73,
+                                "confidence": "low",
+                                "hit_probability": 0.07
+                            },
+                            "tp2": {
+                                "price": 2222.84,
+                                "distance": 42.62,
+                                "estimated_candles": 55.31,
+                                "estimated_hours": 55.31,
+                                "confidence": "low",
+                                "hit_probability": 0.06
+                            },
+                            "tp3": {
+                                "price": 2206.26,
+                                "distance": 59.2,
+                                "estimated_candles": 76.83,
+                                "estimated_hours": 76.83,
+                                "confidence": "low",
+                                "hit_probability": 0.05
+                            }
+                        },
+                        "meta": {
+                            "regime": "weak_trend",
+                            "trend_strength": "weak",
+                            "momentum": "neutral",
+                            "volatility": "high",
+                            "timeframe": "1h",
+                            "direction": "short"
+                        }
+                    }
+                }
             }
         }
     }

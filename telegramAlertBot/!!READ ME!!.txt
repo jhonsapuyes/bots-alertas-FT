@@ -62,15 +62,15 @@ PIPELINE = {
         ("main-execution", execution_result)
     ],
 
-    # =====================================================
-    # PROTECTION LAYER
-    # =====================================================
-
     "PROTECTION_LAYER": [
 
         ("main-protection", protection)
     ]
 }
+=============================================================================
+=============================================================================
+
+=============================================================================
 =============================================================================
 DATA_LAYER
 │
@@ -100,18 +100,26 @@ STRATEGY_LAYER
 ├── risk
 └── trade_plan
 
-        ↓
+if(resp_strategyLayer["strategy"]["valid"]== True)                  if(resp_strategyLayer["strategy"]["valid"]== False)                                  
+        ↓                                                                   ↓
 
-EXECUTION_LAYER
-│
-└── execution
+        ↓                                                              STRATEGY_CONTEXT_LAYER
+                                                                       │     
+    EXECUTION_LAYER                                                    └── strategy_context   
+    │
+    └── execution                                                           ↓   
+    │
+    └── protection                                                     EXECUTION_LAYER        
+                                                                       │     
+                                                                      └── execution          
+                                                                       │
+                                                                      └── protection
 
-        ↓
+ 
+               
 
-PROTECTION_LAYER
-│
-└── protection
-
+               
+  
 
 
 =========================================================

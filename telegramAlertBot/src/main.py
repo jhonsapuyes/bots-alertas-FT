@@ -13,131 +13,86 @@
     #"AVAXUSDT"
     #]
 
-from execution.execution import execute_trade_plan
-from protetion_execution.protetion_execution import protect_execution
+
+
+
+from core.adaptiveContext_layer import adaptiveContextLayer_execute
+from core.data_layer import DataLayer_execute
+from core.execution_layer import executionLayer_execute
+from core.feature_layer import featureLayer_execute
+from core.marketAnalysis_layer import marketAnalysisLayer_execute
+from core.proyeccion_layer import proyeccionLayer_execute
+from core.strategyContext_layer import strategyContextLayer_execute
+from core.strategy_layer import strategyLayer_execute
 from storage.dataSave import save_pipeline_snapshot
-from market_pipeline.data_fetch.get_market_data import get_market_data
-
-from market_pipeline.data_fetch.data_adapter import normalize_candles
-from market_pipeline.feature_engine.engine import engine
-from market_pipeline.regime_engine.regime_classifier import classify_regime
-from opportunity_engine.opportunity_engine import run_opportunity_engine
-from risk_engine.risk_engine import build_risk
-from signal_translation.signal_translator import translate_signal
-
-from confirmation_filter.confirmation_filter import evaluate_confirmation
-from strategy_engine.strategy_engine import build_strategy
-from trade_planner.trade_planner import build_trade_plan
 
 
 def main():
     input_dataSave = {}
 
-    symbol = "ETHUSDT"
-    interval = "1h"
+    symbol= "ETHUSDT"
+    interval= "1h"
+    limit= 30
 
-    raw_data = get_market_data(
-        symbol=symbol,
-        interval=interval,
-        limit=10,
-        retries=3
-    )
-    input_dataSave["raw_data"] = raw_data
+    resp_datalayer= DataLayer_execute(symbol,interval,limit)
+    input_dataSave["datalayer"] = resp_datalayer
 
-    candles = normalize_candles(raw_data)
-    input_dataSave["candles"] = candles
+    resp_featureLayer= featureLayer_execute(resp_datalayer["candles"])
+    input_dataSave["featureLayer"] = resp_featureLayer
 
-    engine_output = engine(candles)
-    input_dataSave["engine"] = engine_output
+    resp_marketAnalysisLayer= marketAnalysisLayer_execute(resp_featureLayer["feature"])
+    input_dataSave["marketAnalysisLayer"] = resp_marketAnalysisLayer
 
-    regime_output = classify_regime(engine_output)
-    input_dataSave["regime"] = regime_output
+    resp_strategyLayer= strategyLayer_execute(resp_featureLayer["feature"],resp_marketAnalysisLayer)
+    input_dataSave["strategy"] = resp_strategyLayer["strategy"]
 
-    opportunities = run_opportunity_engine(
-        features=engine_output,
-        regime=regime_output
-    )
-    input_dataSave["opportunities"] = opportunities
 
-    # 🔥 SIGNAL TRANSLATION LAYER
-    signals = []
-    for opp in opportunities:
-        signal = translate_signal(
-            opportunity=opp,
-            features=engine_output["features"],
-            regime=regime_output
+    def executionPlanner(trade_plan):
+        resp_executionLayer= executionLayer_execute(trade_plan)
+        #print("main-resp_executionLayer", resp_executionLayer["execute_traderPlan"])
+        #print("main-resp_executionLayer", resp_executionLayer["execute_protect"])
+
+    if(resp_strategyLayer["strategy"]["valid"] == False):
+        resp_adaptiveContextLayer= adaptiveContextLayer_execute(resp_featureLayer["feature"],resp_marketAnalysisLayer["regime"],resp_marketAnalysisLayer["signal"])
+        input_dataSave["adaptiveContext"] = resp_strategyLayer
+
+        resp_strategyContextLayer = strategyContextLayer_execute(
+            resp_featureLayer["feature"],
+            resp_marketAnalysisLayer,
+            resp_adaptiveContextLayer["adaptive_context"]
         )
-        signals.append(signal)
-    input_dataSave["signals"] = signals
+        input_dataSave["strategyContext"] = resp_strategyContextLayer["strategy_context"]
+        input_dataSave["tradePlan_context"] = resp_strategyContextLayer["tradePlan_context"]
+        #print(resp_strategyContextLayer["tradePlan_context"])
 
-    confirmation = evaluate_confirmation({
-        "features": engine_output["features"],
-        "regime": regime_output,
-        "signal": signals[0],
-        "opportunity": opportunities[0]
-    })
-    input_dataSave["confirmation"] = confirmation
+        resp_proyeccionLayer= proyeccionLayer_execute(
+            input_dataSave["datalayer"]["candles"],
+            input_dataSave["featureLayer"]["feature"],
+            input_dataSave["marketAnalysisLayer"],
+            resp_strategyContextLayer["tradePlan_context"]
+        )
+        input_dataSave["proyeccion"] = resp_proyeccionLayer
+        #executionPlanner(resp_strategyContextLayer["tradePlan_context"])
 
+    elif(resp_strategyLayer["strategy"]["valid"] == True):
+        input_dataSave["trade_plan"] = resp_strategyLayer["trade_plan"]
+        resp_proyeccionLayer= proyeccionLayer_execute(
+            input_dataSave["datalayer"]["candles"],
+            input_dataSave["featureLayer"]["feature"],
+            input_dataSave["marketAnalysisLayer"],
+            input_dataSave["trade_plan"]
+        )
+        input_dataSave["proyeccion"] = resp_proyeccionLayer
+        #executionPlanner(resp_strategyLayer["trade_plan"])
 
-    strategy = build_strategy({
-        "signal": signal,
-        "confirmation": confirmation,
-        "features": engine_output["features"],
-        "regime": regime_output
-    })
-    input_dataSave["strategy"] = strategy
-
-
-    #save_pipeline_snapshot(symbol,input_dataSave)
-    
-
-    risk= build_risk({
-        "strategy": strategy,              
-        "confirmation": confirmation,
-        "features": engine_output["features"],
-        "regime": regime_output
-    })
+    save_pipeline_snapshot(symbol,input_dataSave)
 
 
-    trade_plan = build_trade_plan({
-        "features": engine_output["features"],
-        "regime": regime_output,
-        "signal": signal,
-        "confirmation": confirmation,
-        "strategy": strategy,
-        "risk": risk
-    })
 
+    #print("main-resp_proyeccionLayer",resp_proyeccionLayer)
 
-    execution_result = execute_trade_plan(
-    trade_plan=trade_plan,
-    exchange="binance",
-    symbol="ETHUSDT"
-    )
+    #print(input_dataSave)
 
-    protection = protect_execution(
-        execution_result
-    )
-
-
-    def screenPrint(pt1): 
-        if(pt1=="all"):
-            print("main-input_dataSave", input_dataSave)
-        elif(pt1=="one"):
-            print("main-raw_data", raw_data)
-            print("main-candles", candles)
-            print("main-engine", engine_output)
-            print("main-regime", regime_output)
-            print("main-opportunities", opportunities)
-            print("main-signals", signals)
-            print("main-confirmation", confirmation)
-            print("main-strategy", strategy)
-            print("main-risk", risk)
-            print("main-trade-plan", trade_plan)
-            print("main-execution", execution_result)
-            print("main-protection",protection)
-
-    screenPrint("one")
 
 if __name__ == "__main__":
     main()

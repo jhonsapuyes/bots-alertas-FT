@@ -84,7 +84,7 @@ def apply_regime_boost(opportunity: dict, regime: dict):
 # 🔥 SIGNAL TRANSLATOR (mejora direction si falta)
 # =========================================================
 def translate_signal(opportunity: dict, features: dict, regime: dict):
-
+    
     if opportunity.get("direction"):
         return opportunity
 
@@ -120,7 +120,6 @@ def _finalize_signal(opportunity: dict):
 # ENGINE PRINCIPAL
 # =========================================================
 def run_opportunity_engine(features: dict, regime: dict):
-
     opportunities = []
 
     context = {

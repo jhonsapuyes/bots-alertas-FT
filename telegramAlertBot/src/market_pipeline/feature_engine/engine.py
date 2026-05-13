@@ -13,9 +13,6 @@ from .builders.volatility_builder import build_volatility_features
 from .builders.price_builder import build_price_features
 from .builders.feature_vector import build_feature_vector
 
-from market_pipeline.regime_engine.regime_classifier import classify_regime
-
-
 def engine(raw_candles):
 
     # =========================
